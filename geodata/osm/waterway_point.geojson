@@ -1,8 +1,0 @@
-{"name":"waterway_point","type":"FeatureCollection"
-,"crs":{"type":"name","properties":{"name":"EPSG:3857"}}
-,"features":[
-{"type":"Feature","geometry":{"type":"Point","coordinates":[3530326.38,644376.29]},"properties":{"lock":"","osm_id":310681008,"waterway":"turning_point","water":"","harbour":"","intermittent":"","width":"","name":"","culvert":"","layer":"","tunnel":""}}
-,{"type":"Feature","geometry":{"type":"Point","coordinates":[3469045.07,1052253.44]},"properties":{"lock":"","osm_id":2283974263,"waterway":"boatyard","water":"","harbour":"","intermittent":"","width":"","name":"","culvert":"","layer":"","tunnel":""}}
-,{"type":"Feature","geometry":{"type":"Point","coordinates":[3386314.44,580360.71]},"properties":{"lock":"","osm_id":2084030428,"waterway":"waterfall","water":"","harbour":"","intermittent":"","width":"","name":"","culvert":"","layer":"","tunnel":""}}
-,{"type":"Feature","geometry":{"type":"Point","coordinates":[3386991.2,577227.39]},"properties":{"lock":"","osm_id":2084030423,"waterway":"waterfall","water":"","harbour":"","intermittent":"","width":"","name":"","culvert":"","layer":"","tunnel":""}}
-]}

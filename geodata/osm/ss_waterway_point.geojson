@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "lock": "", "osm_id": 310681008, "waterway": "turning_point", "water": "", "harbour": "", "intermittent": "", "width": "", "name": "", "culvert": "", "layer": "", "tunnel": "" }, "geometry": { "type": "Point", "coordinates": [ 31.713461450843404, 5.778708649398531 ] } },
+{ "type": "Feature", "properties": { "lock": "", "osm_id": -2010993033, "waterway": "boatyard", "water": "", "harbour": "", "intermittent": "", "width": "", "name": "", "culvert": "", "layer": "", "tunnel": "" }, "geometry": { "type": "Point", "coordinates": [ 31.162962076804742, 9.409963345614177 ] } },
+{ "type": "Feature", "properties": { "lock": "", "osm_id": 2084030428, "waterway": "waterfall", "water": "", "harbour": "", "intermittent": "", "width": "", "name": "", "culvert": "", "layer": "", "tunnel": "" }, "geometry": { "type": "Point", "coordinates": [ 30.419780182866372, 5.206289594082464 ] } },
+{ "type": "Feature", "properties": { "lock": "", "osm_id": 2084030423, "waterway": "waterfall", "water": "", "harbour": "", "intermittent": "", "width": "", "name": "", "culvert": "", "layer": "", "tunnel": "" }, "geometry": { "type": "Point", "coordinates": [ 30.425859621383182, 5.178258000371517 ] } }
+]
+}

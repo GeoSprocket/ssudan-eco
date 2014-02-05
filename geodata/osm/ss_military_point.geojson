@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "aeroway": "", "military": "checkpoint", "osm_id": -2037984511, "building": "", "barrier": "", "name": "", "access": "", "disused": "", "operator": "", "historic": "", "landuse": "" }, "geometry": { "type": "Point", "coordinates": [ 31.59474917587854, 4.920855595139687 ] } }
+]
+}

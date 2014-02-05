@@ -1,0 +1,14 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "service": "", "ref": "", "tracks": "", "disused": "", "operator": "", "bridge": "", "osm_id": 237144483, "name": "", "layer": "", "tunnel": "", "maxspeed": "", "railway": "crossing", "public_transport": "" }, "geometry": { "type": "Point", "coordinates": [ 27.221977017730897, 9.178578410267942 ] } },
+{ "type": "Feature", "properties": { "service": "", "ref": "", "tracks": "", "disused": "", "operator": "", "bridge": "", "osm_id": 2090574809, "name": "", "layer": "", "tunnel": "", "maxspeed": "", "railway": "crossing", "public_transport": "" }, "geometry": { "type": "Point", "coordinates": [ 27.97068534729717, 7.750728977717893 ] } },
+{ "type": "Feature", "properties": { "service": "", "ref": "", "tracks": "", "disused": "", "operator": "", "bridge": "", "osm_id": 2037996955, "name": "Wau واو", "layer": "", "tunnel": "", "maxspeed": "", "railway": "station", "public_transport": "" }, "geometry": { "type": "Point", "coordinates": [ 27.982599343584333, 7.71782812884651 ] } },
+{ "type": "Feature", "properties": { "service": "", "ref": "", "tracks": "", "disused": "", "operator": "", "bridge": "", "osm_id": 2090561346, "name": "", "layer": "", "tunnel": "", "maxspeed": "", "railway": "crossing", "public_transport": "" }, "geometry": { "type": "Point", "coordinates": [ 27.481641787970275, 8.612479369635468 ] } },
+{ "type": "Feature", "properties": { "service": "", "ref": "", "tracks": "", "disused": "", "operator": "", "bridge": "", "osm_id": 234614762, "name": "", "layer": "", "tunnel": "", "maxspeed": "", "railway": "crossing", "public_transport": "" }, "geometry": { "type": "Point", "coordinates": [ 27.361108807587556, 8.77823448559027 ] } },
+{ "type": "Feature", "properties": { "service": "", "ref": "", "tracks": "", "disused": "", "operator": "", "bridge": "", "osm_id": 1354559801, "name": "Aweil", "layer": "", "tunnel": "", "maxspeed": "", "railway": "station", "public_transport": "" }, "geometry": { "type": "Point", "coordinates": [ 27.394266523039686, 8.761936205163495 ] } },
+{ "type": "Feature", "properties": { "service": "", "ref": "", "tracks": "", "disused": "", "operator": "", "bridge": "", "osm_id": 321500040, "name": "", "layer": "", "tunnel": "", "maxspeed": "", "railway": "crossing", "public_transport": "" }, "geometry": { "type": "Point", "coordinates": [ 27.396339475389325, 8.760485130098003 ] } }
+]
+}

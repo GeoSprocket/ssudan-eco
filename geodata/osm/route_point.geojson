@@ -1,9 +1,0 @@
-{"name":"route_point","type":"FeatureCollection"
-,"crs":{"type":"name","properties":{"name":"EPSG:3857"}}
-,"features":[
-{"type":"Feature","geometry":{"type":"Point","coordinates":[3509988.18,539584.12]},"properties":{"type":"","osm_id":2626360620,"ref":"","route":"road","name":"","network":"","operator":""}}
-,{"type":"Feature","geometry":{"type":"Point","coordinates":[3509989.67,539849.03]},"properties":{"type":"","osm_id":2626360808,"ref":"","route":"road","name":"","network":"","operator":""}}
-,{"type":"Feature","geometry":{"type":"Point","coordinates":[3510336.21,539486.6]},"properties":{"type":"","osm_id":2626360575,"ref":"","route":"road","name":"","network":"","operator":""}}
-,{"type":"Feature","geometry":{"type":"Point","coordinates":[3514300.77,535874.55]},"properties":{"type":"","osm_id":2626554423,"ref":"","route":"road","name":"","network":"","operator":""}}
-,{"type":"Feature","geometry":{"type":"Point","coordinates":[3514842.84,535957.89]},"properties":{"type":"","osm_id":2626554587,"ref":"","route":"road","name":"","network":"","operator":""}}
-]}

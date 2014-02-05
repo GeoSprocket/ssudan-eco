@@ -1,5 +1,0 @@
-{"name":"emergency_polygon","type":"FeatureCollection"
-,"crs":{"type":"name","properties":{"name":"EPSG:3857"}}
-,"features":[
-{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[3412718.48,458571.59],[3412720.7,458578.6],[3412737.21,458573.36],[3412741.85,458588.03],[3412746.91,458586.42],[3412743.4,458575.35],[3412759.51,458570.25],[3412756.09,458559.48],[3412743.71,458563.39],[3412739.66,458550.6],[3412729.65,458553.77],[3412733.76,458566.74],[3412718.48,458571.59]]]},"properties":{"osm_id":225830626,"ref":"","z_order":0,"emergency":"yes","name":"Harvesters House of Hope Hospital","operator":"","amenity":"hospital"}}
-]}
