@@ -1,0 +1,11 @@
+{"name":"railway_point","type":"FeatureCollection"
+,"crs":{"type":"name","properties":{"name":"EPSG:3857"}}
+,"features":[
+{"type":"Feature","geometry":{"type":"Point","coordinates":[3030336.62,1026153.12]},"properties":{"service":"","ref":"","tracks":"","disused":"","operator":"","bridge":"","osm_id":237144483,"name":"","layer":"","tunnel":"","maxspeed":"","railway":"crossing","public_transport":""}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[3113682.45,865450.8]},"properties":{"service":"","ref":"","tracks":"","disused":"","operator":"","bridge":"","osm_id":2090574809,"name":"","layer":"","tunnel":"","maxspeed":"","railway":"crossing","public_transport":""}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[3115008.71,861754.67]},"properties":{"service":"","ref":"","tracks":"","disused":"","operator":"","bridge":"","osm_id":2037996955,"name":"Wau واو","layer":"","tunnel":"","maxspeed":"","railway":"station","public_transport":""}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[3059242.37,962367.78]},"properties":{"service":"","ref":"","tracks":"","disused":"","operator":"","bridge":"","osm_id":2090561346,"name":"","layer":"","tunnel":"","maxspeed":"","railway":"crossing","public_transport":""}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[3045824.7,981034.11]},"properties":{"service":"","ref":"","tracks":"","disused":"","operator":"","bridge":"","osm_id":234614762,"name":"","layer":"","tunnel":"","maxspeed":"","railway":"crossing","public_transport":""}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[3049515.8,979198.33]},"properties":{"service":"","ref":"","tracks":"","disused":"","operator":"","bridge":"","osm_id":1354559801,"name":"Aweil","layer":"","tunnel":"","maxspeed":"","railway":"station","public_transport":""}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[3049746.56,979034.89]},"properties":{"service":"","ref":"","tracks":"","disused":"","operator":"","bridge":"","osm_id":321500040,"name":"","layer":"","tunnel":"","maxspeed":"","railway":"crossing","public_transport":""}}
+]}

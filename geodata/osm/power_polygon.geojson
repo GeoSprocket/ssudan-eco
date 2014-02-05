@@ -1,0 +1,6 @@
+{"name":"power_polygon","type":"FeatureCollection"
+,"crs":{"type":"name","properties":{"name":"EPSG:3857"}}
+,"features":[
+{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[3654454.32,1316890.87],[3654459.36,1316895.84],[3654539.71,1316975.08],[3654646.56,1316867.98],[3654594.65,1316814.43],[3654563.89,1316845.78],[3654557.02,1316845.78],[3654527.47,1316817.42],[3654454.32,1316890.87]]]},"properties":{"generator:source":"","osm_id":237068296,"z_order":0,"power":"sub_station","power_source":"","layer":""}}
+,{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[3316304.67,1034215.69],[3316412.16,1034231.81],[3316430.28,1034115.58],[3316321.99,1034097.45],[3316304.67,1034215.69]]]},"properties":{"generator:source":"","osm_id":253481263,"z_order":0,"power":"generator","power_source":"","layer":""}}
+]}

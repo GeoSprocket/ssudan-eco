@@ -1,0 +1,5 @@
+{"name":"military_point","type":"FeatureCollection"
+,"crs":{"type":"name","properties":{"name":"EPSG:3857"}}
+,"features":[
+{"type":"Feature","geometry":{"type":"Point","coordinates":[3517111.39,548461.82]},"properties":{"aeroway":"","military":"checkpoint","osm_id":2256982785,"building":"","barrier":"","name":"","access":"","disused":"","operator":"","historic":"","landuse":""}}
+]}

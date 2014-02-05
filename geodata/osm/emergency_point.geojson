@@ -1,0 +1,8 @@
+{"name":"emergency_point","type":"FeatureCollection"
+,"crs":{"type":"name","properties":{"name":"EPSG:3857"}}
+,"features":[
+{"type":"Feature","geometry":{"type":"Point","coordinates":[3412773.56,458592.28]},"properties":{"osm_id":2346511323,"ref":"","emergency":"yes","name":"Harvesters House of Hope Hospital","operator":"","amenity":"hospital"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[3416073.25,456264.53]},"properties":{"osm_id":449751115,"ref":"","emergency":"yes","name":"EPC Clinic Yei","operator":"","amenity":"hospital"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[3516498.38,541370.95]},"properties":{"osm_id":2054217640,"ref":"","emergency":"no","name":"URG clinic","operator":"","amenity":"hospital"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[3389644.74,468176.55]},"properties":{"osm_id":301531629,"ref":"","emergency":"yes","name":"Goli Hospital","operator":"","amenity":"hospital"}}
+]}

@@ -1,0 +1,6 @@
+{"name":"sport_point","type":"FeatureCollection"
+,"crs":{"type":"name","properties":{"name":"EPSG:3857"}}
+,"features":[
+{"type":"Feature","geometry":{"type":"Point","coordinates":[3513184.36,540270.05]},"properties":{"covered":"","osm_id":2207657479,"ref":"","sport":"soccer","name":"","access":"","leisure":"pitch"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[3518033.22,690845.18]},"properties":{"covered":"","osm_id":2458845580,"ref":"","sport":"volleyball","name":"","access":"","leisure":"pitch"}}
+]}
