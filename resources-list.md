@@ -35,8 +35,11 @@
 |February 04, 2014 at 09:40PM|HOTOSM Wiki: Africover/DEPHA - OpenStreetMap Wiki|HOTOSM Africover use|ssudan, lulc|http://ift.tt/1nQXwjo|
 |February 04, 2014 at 10:03PM|GeoNetwork - The portal to spatial data and information|FAO source metadata, coarse resolution|ssudan, lulc|http://ift.tt/MZPfMe|
 |February 04, 2014 at 09:55PM|Anthropogenic pressure in East Africa—Monitoring 20 years of land cover changes by means of medium resolution satellite data|20-year study w/ Landsat & DMC Deimos, observed increase in yearly deforestation rate.|ssudan, lulc, academic|http://ift.tt/LwUL7r|
-|February 04, 2014 at 11:26PM|http://ift.tt/1bpx4oK|Page 10 shows growing season dynamics|ssudan, lulc|http://ift.tt/1bpx4oK|
+|February 04, 2014 at 11:26PM|Sudan Seasonal Evaluation Report|Page 10 shows growing season dynamics|ssudan, lulc|http://ift.tt/1bpx4oK|
 |February 05, 2014 at 01:04PM|GeoSprocket/ssudan-eco|Repository for collected data that will fit under 100MB|ssudan, geodata, lulc|http://ift.tt/1jg7QkD|
-|February 05, 2014 at 04:26PM|http://ift.tt/1kVcJxi Operations Report.pdf|Contact info for GOSS GIS team|ssudan, geodata|http://ift.tt/N4bMYd|
-|February 05, 2014 at 05:18PM|http://ift.tt/1brUUA2|elephant habitat maps, coarse PDF, needs extraction|ssudan, biodiversity, elephants|http://ift.tt/1brUUA2|
+|February 05, 2014 at 04:26PM|Group on Earth Observations Operations Report|Contact info for GOSS GIS team|ssudan, geodata|http://ift.tt/N4bMYd|
+|February 05, 2014 at 05:18PM|IUCN Elephant report 2007|elephant habitat maps, coarse PDF, needs extraction|ssudan, biodiversity, elephants|http://ift.tt/1brUUA2|
+|February 05, 2014 at 10:28PM|Elephant Database - IUCN|IUCN mapping tool for elephant range|ssudan, biodiversity, geodata|http://ift.tt/1bwFZru|
+|February 05, 2014 at 10:26PM|Elephants In Peril|Resource includes mapping of poaching and populations, not sure about veracity|ssudan, biodiversity, geodata|http://ift.tt/TRVbr1|
+|February 05, 2014 at 10:17PM|Orphan Elephants - Map: Saving Orphans - Pictures, More From National Geographic Magazine|NatGeo example from Kenya of elephant habitat map|ssudan, geodata, biodiversity|http://ift.tt/1kWPoeS|
 
