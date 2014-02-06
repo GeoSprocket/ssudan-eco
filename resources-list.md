@@ -44,5 +44,5 @@
 |February 05, 2014 at 10:17PM|Orphan Elephants - Map: Saving Orphans - Pictures, More From National Geographic Magazine|NatGeo example from Kenya of elephant habitat map|ssudan, geodata, biodiversity|http://ift.tt/1kWPoeS|
 |February 06, 2014 at 01:39PM|Limits to detectability of land degradation by trend analysis of vegetation index data|NDVI doesn't work for desertification detection!|ssudan, lulc, academic|http://ift.tt/1l0S2Aj|
 |February 06, 2014 at 01:58PM|Using remote sensing technology to detect, model and map desertification: A review|Methods overview|ssudan, lulc, academic|http://ift.tt/1ixo9Gf|
-|February 06, 2014 at 02:26PM|ŷhat | Random Forests in Python|Python methods for Random Forest|ssudan, lulc, classification|http://ift.tt/12298XX|
+|February 06, 2014 at 02:26PM|ŷhat - Random Forests in Python|Python methods for Random Forest|ssudan, lulc, classification|http://ift.tt/12298XX|
 
