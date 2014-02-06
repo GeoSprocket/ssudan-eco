@@ -8,12 +8,12 @@
 ||GLCN: activities|Overview of Land Cover assessment by GOSS funded by EU, hosted by FAO's GLCN|ssudan, lulc|https://api.viglink.com/api/click?format=go&jsonp=vglnk_jsonp_13911375617088&key=bc677e6e3f099d98d6e6d8e7968b7d28&loc=https%3A%2F%2Fdelicious.com%2Fvtcraghead%2Fssudan&v=1&libId=f3c293a3-4826-4758-baad-ceb0b26e6bf2&out=http%3A%2F%2Fwww.glcn.org%2Factivities%2Fssud_lc_en.jsp&title=%40vtcraghead%20%E2%80%93%20Delicious&txt=GLCN%3A%20activities|
 |January 30, 2014 at 04:52PM|SAML Sudan LULC|Created in 2003, TM data from 1994-1999|ssudan, lulc|http://ift.tt/1ebrBYm|
 |January 30, 2014 at 05:03PM|Geosprocket Forest Cover Example, South Sudan|Basic example using EarthEngine tile endpoint|ssudan, lulc|http://ift.tt/1fmj5Uq|
-|January 30, 2014 at 05:01PM|Geospatial Data for Sudan | UNITAR-UNOSAT|Repo for ancillary data, infrastructure, etc. Some dead links.|ssudan, geodata|http://ift.tt/1fmj9DJ|
-|January 30, 2014 at 08:14PM|USAID Welcomes the Crowd to Use Geo-Mapping Tools for Open Source Development | USAID Impact|Press re: USAID encouraging OSM use in dev|ssudan, geodata|http://ift.tt/1fgeukX|
-|January 30, 2014 at 10:03PM|South Sudan | ReliefWeb - Environmental Resources|Various resources including forest data, directed here by Lars Bromley of UNITAR|ssudan, lulc, geodata|http://ift.tt/1nterZ4|
-|January 30, 2014 at 09:59PM|Search | COD-FOD Registry|Ancillary Data, directed here by Lars Bromley of UNITAR, since their previous repository is down|ssudan, geodata|http://ift.tt/1nteu7m|
-|January 30, 2014 at 09:57PM|Home | Satellite Sentinel Project|Humanitarian, high-res mapping; may not be applicable for LULC|ssudan, geodata|http://ift.tt/fBAzTK|
-|January 30, 2014 at 10:19PM|A Gentle Introduction to Random Forests, Ensembles, and Performance Metrics in a Commercial System | The Desktop Marketing Blog|A WTF for Random Forests|ssudan, lulc, classification|http://ift.tt/1bEKInw|
+|January 30, 2014 at 05:01PM|Geospatial Data for Sudan  UNITAR-UNOSAT|Repo for ancillary data, infrastructure, etc. Some dead links.|ssudan, geodata|http://ift.tt/1fmj9DJ|
+|January 30, 2014 at 08:14PM|USAID Welcomes the Crowd to Use Geo-Mapping Tools for Open Source Development - USAID Impact|Press re: USAID encouraging OSM use in dev|ssudan, geodata|http://ift.tt/1fgeukX|
+|January 30, 2014 at 10:03PM|South Sudan - ReliefWeb - Environmental Resources|Various resources including forest data, directed here by Lars Bromley of UNITAR|ssudan, lulc, geodata|http://ift.tt/1nterZ4|
+|January 30, 2014 at 09:59PM|Search - COD-FOD Registry|Ancillary Data, directed here by Lars Bromley of UNITAR, since their previous repository is down|ssudan, geodata|http://ift.tt/1nteu7m|
+|January 30, 2014 at 09:57PM|Home - Satellite Sentinel Project|Humanitarian, high-res mapping; may not be applicable for LULC|ssudan, geodata|http://ift.tt/fBAzTK|
+|January 30, 2014 at 10:19PM|A Gentle Introduction to Random Forests, Ensembles, and Performance Metrics in a Commercial System - The Desktop Marketing Blog|A WTF for Random Forests|ssudan, lulc, classification|http://ift.tt/1bEKInw|
 |January 30, 2014 at 10:18PM|CRAN - Package randomForest|Try this one first, with a small demo area|ssudan, lulc, classification|http://ift.tt/1bEKP2y|
 |January 30, 2014 at 10:17PM|Random Forest in Python|Worth digging into if R doesn't work|ssudan, lulc, classification|http://ift.tt/1bEKRre|
 |January 30, 2014 at 10:56PM|Home - Open Data for South Sudan|Whatnow? A South Sudan open data portal, up and running - built by the African Development Bank|ssudan, opendata|http://ift.tt/12oUCX1|
@@ -26,7 +26,7 @@
 |January 31, 2014 at 11:37PM|Tropical Forestry and Biodiversity Assessment|Cadmus Scope of work w/ USAID - umbrella project|ssudan|http://ift.tt/1fGM3Ny|
 |January 31, 2014 at 11:30PM|Analysis of Sahelian vegetation dynamics using NOAA-AVHRR NDVI data from 1981–2003|Compton J. Tucker was on this one. Imagery ends 2003|ssudan, lulc|http://ift.tt/1efkiPg|
 |January 31, 2014 at 11:27PM|USAID Southern Sudan Environmental Threats & Opportunities Assessment|Dated 2007, but refers to GOSS. Worth checking w/ authors for update. Comprehensive resource details. Note fig 7-8|ssudan, biodiversity|http://ift.tt/1efkiPm|
-|January 31, 2014 at 11:55PM|Welcome to African Forest Forum | African Forest Forum|Needs a closer look|ssudan, biodiversity|http://ift.tt/1cFh1Hb|
+|January 31, 2014 at 11:55PM|Welcome to African Forest Forum - African Forest Forum|Needs a closer look|ssudan, biodiversity|http://ift.tt/1cFh1Hb|
 |January 31, 2014 at 11:46PM|High-Resolution Global Maps of 21st-Century Forest Cover Change|Get source data - beyond tiles|ssudan, lulc|http://ift.tt/1duLtlr|
 |February 01, 2014 at 12:02AM|Bolivia Country Analysis of Tropical Forests and Biological Diversity|Good example of country assessment|ssudan, lulc, biodiversity|http://ift.tt/1jVfUHr|
 |February 03, 2014 at 11:38PM|Integrated assessment of the environmental impact of an IDP camp in Sudan based on very high resolution multi-temporal satellite imagery|Weighted Natural Resource Depletion index, impact around a camp, high-res w/ OBIA|ssudan, lulc, academic|http://ift.tt/1ih8H0Q|
