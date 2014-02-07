@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "osm_id": -1948455973, "ref": "", "emergency": "yes", "name": "Harvesters House of Hope Hospital", "operator": "", "amenity": "hospital" }, "geometry": { "type": "Point", "coordinates": [ 30.657466501869902, 4.116059600036181 ] } },
+{ "type": "Feature", "properties": { "osm_id": 449751115, "ref": "", "emergency": "yes", "name": "EPC Clinic Yei", "operator": "", "amenity": "hospital" }, "geometry": { "type": "Point", "coordinates": [ 30.687108121468462, 4.095202727759773 ] } },
+{ "type": "Feature", "properties": { "osm_id": 2054217640, "ref": "", "emergency": "no", "name": "URG clinic", "operator": "", "amenity": "hospital" }, "geometry": { "type": "Point", "coordinates": [ 31.589242413355361, 4.857388996292435 ] } },
+{ "type": "Feature", "properties": { "osm_id": 301531629, "ref": "", "emergency": "yes", "name": "Goli Hospital", "operator": "", "amenity": "hospital" }, "geometry": { "type": "Point", "coordinates": [ 30.449696776773404, 4.201929829617027 ] } }
+]
+}

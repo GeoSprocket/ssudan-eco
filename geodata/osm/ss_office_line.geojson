@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "website": "", "addr:subdistrict": "", "contact:website": "", "addr:street": "", "addr:hamlet": "", "addr:suburb": "", "addr:province": "", "contact:phone": "", "opening_hours": "", "osm_id": 176115152, "z_order": 0, "addr:postcode": "", "name": "WHO", "addr:housenumber": "", "addr:housename": "", "addr:district": "", "building": "", "addr:city": "", "brand": "", "addr:country": "", "addr:place": "", "phone": "", "office": "ngo", "addr:state": "" }, "geometry": { "type": "LineString", "coordinates": [ [ 32.88564961906205, 3.288155361274097 ], [ 32.885630574778027, 3.288121998960063 ], [ 32.885661207329221, 3.288074645996307 ], [ 32.886578566897363, 3.288461272117591 ], [ 32.886017658833957, 3.289433083251065 ], [ 32.885165427123916, 3.288888704115244 ], [ 32.88555385865277, 3.288235448759921 ], [ 32.88560461346632, 3.288236883698017 ] ] } }
+]
+}
