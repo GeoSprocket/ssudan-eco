@@ -45,4 +45,6 @@
 |February 06, 2014 at 01:39PM|Limits to detectability of land degradation by trend analysis of vegetation index data|NDVI doesn't work for desertification detection!|ssudan, lulc, academic|http://ift.tt/1l0S2Aj|
 |February 06, 2014 at 01:58PM|Using remote sensing technology to detect, model and map desertification: A review|Methods overview|ssudan, lulc, academic|http://ift.tt/1ixo9Gf|
 |February 06, 2014 at 02:26PM|ŷhat - Random Forests in Python|Python methods for Random Forest|ssudan, lulc, classification|http://ift.tt/12298XX|
+|February 07, 2014 at 12:36AM|Oil Map|KML of Oil Concessions in Sudan|ssudan, geodata|http://ift.tt/1bAMRnG|
+|February 07, 2014 at 10:14AM|USGS Energy Resources Program -- EnVision|Flash-based map of African surficial geology|ssudan, geodata, geology|http://ift.tt/1b93yJ9|
 
