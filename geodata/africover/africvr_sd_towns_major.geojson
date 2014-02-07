@@ -1,0 +1,13 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "NAME": "Juba" }, "geometry": { "type": "Point", "coordinates": [ 31.61667, 4.85 ] } },
+{ "type": "Feature", "properties": { "NAME": "Malakal" }, "geometry": { "type": "Point", "coordinates": [ 31.650960370742418, 9.529041649884721 ] } },
+{ "type": "Feature", "properties": { "NAME": "Rumbek" }, "geometry": { "type": "Point", "coordinates": [ 29.690860920554343, 6.804746162114363 ] } },
+{ "type": "Feature", "properties": { "NAME": "Torit" }, "geometry": { "type": "Point", "coordinates": [ 32.56733, 4.408 ] } },
+{ "type": "Feature", "properties": { "NAME": "Uwayl" }, "geometry": { "type": "Point", "coordinates": [ 27.394797092903737, 8.775134992453728 ] } },
+{ "type": "Feature", "properties": { "NAME": "Yambio" }, "geometry": { "type": "Point", "coordinates": [ 28.402880836508412, 4.559781773192908 ] } }
+]
+}
