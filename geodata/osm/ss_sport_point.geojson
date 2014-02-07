@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-                                                                                
-"features": [
-{ "type": "Feature", "properties": { "covered": "", "osm_id": -2087309817, "ref": "", "sport": "soccer", "name": "", "access": "", "leisure": "pitch" }, "geometry": { "type": "Point", "coordinates": [ 31.559472065176582, 4.847534889247286 ] } },
-{ "type": "Feature", "properties": { "covered": "", "osm_id": -1836121716, "ref": "", "sport": "volleyball", "name": "", "access": "", "leisure": "pitch" }, "geometry": { "type": "Point", "coordinates": [ 31.603030115662143, 6.193868528246582 ] } }
-]
-}
