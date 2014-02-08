@@ -1,0 +1,15 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "lock": "", "osm_id": 940694239, "waterway": "weir", "water": "", "harbour": "", "intermittent": "", "width": "", "name": "", "culvert": "", "layer": "", "tunnel": "" }, "geometry": { "type": "Point", "coordinates": [ 33.700537464430113, 3.747572962709781 ] } },
+{ "type": "Feature", "properties": { "lock": "", "osm_id": 1811815208, "waterway": "weir", "water": "", "harbour": "", "intermittent": "", "width": "", "name": "Kidepo River", "culvert": "", "layer": "", "tunnel": "" }, "geometry": { "type": "Point", "coordinates": [ 33.704766822619277, 3.93539477596709 ] } },
+{ "type": "Feature", "properties": { "lock": "", "osm_id": 942814757, "waterway": "weir", "water": "", "harbour": "", "intermittent": "", "width": "", "name": "", "culvert": "", "layer": "", "tunnel": "" }, "geometry": { "type": "Point", "coordinates": [ 33.709977500424806, 3.725191949528317 ] } },
+{ "type": "Feature", "properties": { "lock": "", "osm_id": 938213470, "waterway": "weir", "water": "", "harbour": "", "intermittent": "", "width": "", "name": "", "culvert": "", "layer": "", "tunnel": "" }, "geometry": { "type": "Point", "coordinates": [ 33.728789030958033, 3.730612388816676 ] } },
+{ "type": "Feature", "properties": { "lock": "", "osm_id": 310681008, "waterway": "turning_point", "water": "", "harbour": "", "intermittent": "", "width": "", "name": "", "culvert": "", "layer": "", "tunnel": "" }, "geometry": { "type": "Point", "coordinates": [ 31.713461450843404, 5.778708649398531 ] } },
+{ "type": "Feature", "properties": { "lock": "", "osm_id": -2010993033, "waterway": "boatyard", "water": "", "harbour": "", "intermittent": "", "width": "", "name": "", "culvert": "", "layer": "", "tunnel": "" }, "geometry": { "type": "Point", "coordinates": [ 31.162962076804742, 9.409963345614177 ] } },
+{ "type": "Feature", "properties": { "lock": "", "osm_id": 2084030428, "waterway": "waterfall", "water": "", "harbour": "", "intermittent": "", "width": "", "name": "", "culvert": "", "layer": "", "tunnel": "" }, "geometry": { "type": "Point", "coordinates": [ 30.419780182866372, 5.206289594082464 ] } },
+{ "type": "Feature", "properties": { "lock": "", "osm_id": 2084030423, "waterway": "waterfall", "water": "", "harbour": "", "intermittent": "", "width": "", "name": "", "culvert": "", "layer": "", "tunnel": "" }, "geometry": { "type": "Point", "coordinates": [ 30.425859621383182, 5.178258000371517 ] } }
+]
+}

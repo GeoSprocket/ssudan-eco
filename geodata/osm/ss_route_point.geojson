@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "type": "", "osm_id": -1668606676, "ref": "", "route": "road", "name": "", "network": "", "operator": "" }, "geometry": { "type": "Point", "coordinates": [ 31.530760291728612, 4.841395087562411 ] } },
+{ "type": "Feature", "properties": { "type": "", "osm_id": -1668606488, "ref": "", "route": "road", "name": "", "network": "", "operator": "" }, "geometry": { "type": "Point", "coordinates": [ 31.530773676626342, 4.843766319900491 ] } },
+{ "type": "Feature", "properties": { "type": "", "osm_id": -1668606721, "ref": "", "route": "road", "name": "", "network": "", "operator": "" }, "geometry": { "type": "Point", "coordinates": [ 31.533886698411933, 4.840522175508637 ] } },
+{ "type": "Feature", "properties": { "type": "", "osm_id": -1668412873, "ref": "", "route": "road", "name": "", "network": "", "operator": "" }, "geometry": { "type": "Point", "coordinates": [ 31.569500946840023, 4.808189534116127 ] } },
+{ "type": "Feature", "properties": { "type": "", "osm_id": -1668412709, "ref": "", "route": "road", "name": "", "network": "", "operator": "" }, "geometry": { "type": "Point", "coordinates": [ 31.574370444500648, 4.808935555061655 ] } }
+]
+}

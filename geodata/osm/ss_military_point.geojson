@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "aeroway": "", "military": "barracks", "osm_id": 940807265, "building": "", "barrier": "", "name": "UPDF Barracks Kanatorok", "access": "", "disused": "", "operator": "", "historic": "", "landuse": "military" }, "geometry": { "type": "Point", "coordinates": [ 33.764052846593778, 3.997290827357754 ] } },
+{ "type": "Feature", "properties": { "aeroway": "", "military": "checkpoint", "osm_id": -2037984511, "building": "", "barrier": "", "name": "", "access": "", "disused": "", "operator": "", "historic": "", "landuse": "" }, "geometry": { "type": "Point", "coordinates": [ 31.59474917587854, 4.920855595139687 ] } }
+]
+}
