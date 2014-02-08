@@ -17,7 +17,7 @@
 { "type": "Feature", "properties": { "NAME": "Angarbaka" }, "geometry": { "type": "Point", "coordinates": [ 24.727743860521748, 9.731484544189955 ] } },
 { "type": "Feature", "properties": { "NAME": "Anyuol" }, "geometry": { "type": "Point", "coordinates": [ 30.375956034268825, 6.190706655148074 ] } },
 { "type": "Feature", "properties": { "NAME": "Araka" }, "geometry": { "type": "Point", "coordinates": [ 30.35, 4.26667 ] } },
-{ "type": "Feature", "properties": { "NAME": "Ar Rank" }, "geometry": { "type": "Point", "coordinates": [ 32.803864256115375, 11.742982065799517 ] } },
+{ "type": "Feature", "properties": { "NAME": "Ar Rank" }, "geometry": { "type": "Point", "coordinates": [ 32.803864256115375, 11.74298206579951 ] } },
 { "type": "Feature", "properties": { "NAME": "Atiam Tiam" }, "geometry": { "type": "Point", "coordinates": [ 28.93333, 8.53333 ] } },
 { "type": "Feature", "properties": { "NAME": "Atiedo" }, "geometry": { "type": "Point", "coordinates": [ 27.887114267920253, 7.911660794752608 ] } },
 { "type": "Feature", "properties": { "NAME": "Atiit" }, "geometry": { "type": "Point", "coordinates": [ 30.580380290835816, 6.158284007291632 ] } },
