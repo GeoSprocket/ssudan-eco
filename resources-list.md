@@ -1,4 +1,4 @@
-|Timestamp|Title|Description|Tags|Link|
+|q|Title|Description|Tags|Link|
 | ------ | ------ | ------ | ------ | ------ |
 |January 30, 2014 at 04:52PM|Africover Datasets for Sudan |Looks about 10-20yrs old|ssudan, lulc|https://api.viglink.com/api/click?format=go&jsonp=vglnk_jsonp_139113779293223&key=bc677e6e3f099d98d6e6d8e7968b7d28&loc=https%3A%2F%2Fdelicious.com%2Fvtcraghead%2Fssudan&v=1&libId=f3c293a3-4826-4758-baad-ceb0b26e6bf2&out=http%3A%2F%2Fwww.fao.org%2Fgeonetwork%2Fsrv%2Fen%2Fmain.search%3Ftitle%3Dafricover%2520landcover%2520sudan&title=%40vtcraghead%20%E2%80%93%20Delicious&txt=Africover%20Datasets%20for%20Sudan|
 |January 30, 2014 at 04:52PM|South Sudan LULC Statistics |Awesome - use this to guide research|ssudan, lulc|https://api.viglink.com/api/click?format=go&jsonp=vglnk_jsonp_139113775423220&key=bc677e6e3f099d98d6e6d8e7968b7d28&loc=https%3A%2F%2Fdelicious.com%2Fvtcraghead%2Fssudan&v=1&libId=f3c293a3-4826-4758-baad-ceb0b26e6bf2&out=http%3A%2F%2Fwww.glcn.org%2Factivities%2Fimg%2Fssud_lc_stats_agg.jpg&title=%40vtcraghead%20%E2%80%93%20Delicious&txt=South%20Sudan%20LULC%20Statistics|
@@ -48,4 +48,5 @@
 |February 07, 2014 at 12:36AM|Oil Map|KML of Oil Concessions in Sudan|ssudan, geodata|http://ift.tt/1bAMRnG|
 |February 07, 2014 at 10:14AM|USGS Energy Resources Program -- EnVision|Flash-based map of African surficial geology|ssudan, geodata, geology|http://ift.tt/1b93yJ9|
 |February 11, 2014 at 02:02PM|GEM - Global Environment Monitoring|travel time to major cities - prob. a fine proxy for access.|ssudan, geodata|http://ift.tt/1bJtHJb|
+|February 14, 2014 at 03:40PM|Global Forest Change|Hansen et al. forest cover change, available for download!|ssudan, lulc|http://ift.tt/MTk44z|
 
