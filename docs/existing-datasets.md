@@ -18,7 +18,7 @@ This catalog is not static, and it is only possible to keep it updated with supp
 
 This catalog places an emphasis on national-scale datasets. Though many useful studies and maps are focused on regions and localities in South Sudan (here is [an excellent example](http://www.sciencedirect.com/science/article/pii/S0143622812001622) from Gorsevski et al.), for the purposes of this study we are interested in patterns and processes that can be assessed at national scale and moderate resolution. 
 
-Datasets are categorized by broad theme below:
+Datasets are categorized by broad theme below. Some are hosted in this repository and others (due to file size restrictions) are linked to external resources. Wherever possible, global- and continental-scale datasets have been clipped to the [South Sudan area of interest](../geodata/osm/south_sudan_osm_roi20km.geojson), which includes disputed areas and a 20km buffer beyond the national border.
 
 ### Land Use & Land Cover
 
