@@ -4,7 +4,7 @@
 
 The relatively-young Republic of South Sudan has abundant resources. While mineral resources in the form of oil and gas have been the focus of international interest, geopolitical conflict and some internal division, the country's natural resources are of similar - arguably greater - importance. Since gaining autonomy in 2005 and independence in 2011, the government of South Sudan has enacted varying measures to protect these resources, which include dramatic wildlife migration routes in Bandingilo National Park and essential ecosystem services from the massive Sudd wetland complex:
 
-<iframe width='100%' height='500px' frameBorder='0' src='http://a.tiles.mapbox.com/v3/landplanner.hbogn16k/mm/zoompan,zoomwheel,geocoder,share.html'></iframe>
+<img src="http://api.tiles.mapbox.com/v3/landplanner.hbogn16k/7.896,29.866,7/400x300.png"/>
 
 Though South Sudan is [better positioned economically than many of its neighbors](http://blogs.worldbank.org/africacan/south-sudan-launches-its-first-gdp-estimate), it still grapples with extreme poverty. It is under such conditions that great pressure can be brought to bear on natural resources, and it is imperitive that they be governed with the right balance of empowerment and sustainability. Enabling this balance is a clear and regular assessment of the country's biodiversity and forest resources. Following up on [a 2007 report on environmental threats and opportunities in South (then 'Southern') Sudan](http://pdf.usaid.gov/pdf_docs/PNADL108.pdf), USAID is undertaking a post-independence analysis of the same resources, policies and features.
 
