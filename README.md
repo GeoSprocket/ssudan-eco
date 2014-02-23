@@ -1,6 +1,9 @@
-ssudan-eco
-==========
+# ssudan-eco
 
 Repository for datasets and tools related to biodiversity assessment in South Sudan
 
-See the [resource list](resources-list.md) for compiled data sources and background information
+## Components
+
+* [Hosted resources](geodata/) are compiled by provider organization and are available for download
+
+* See the [existing dataset report](docs/resources-list.md) for background information on environmentally-focused geodata
