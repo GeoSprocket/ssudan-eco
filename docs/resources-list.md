@@ -49,4 +49,5 @@
 |February 07, 2014 at 10:14AM|USGS Energy Resources Program -- EnVision|Flash-based map of African surficial geology|ssudan, geodata, geology|http://ift.tt/1b93yJ9|
 |February 11, 2014 at 02:02PM|GEM - Global Environment Monitoring|travel time to major cities - prob. a fine proxy for access.|ssudan, geodata|http://ift.tt/1bJtHJb|
 |February 14, 2014 at 03:40PM|Global Forest Change|Hansen et al. forest cover change, available for download!|ssudan, lulc|http://ift.tt/MTk44z|
+|February 19, 2014 at 09:34AM|FAO data - mapset-data-filter - Crop harvested area, yield and production|Ag Data, mostly at coarse resolution|ssudan, geodata|http://ift.tt/1eRmxTd|
 
