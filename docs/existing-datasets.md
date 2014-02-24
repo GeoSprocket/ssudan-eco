@@ -25,11 +25,13 @@ Datasets are categorized by broad theme below. Some are hosted in this repositor
 
 |Name|Source|Type|Format|Notes|
 | ------ | ------ | ------ | ------ | ------ |
-|[OSM - Land Use](../geodata/osm/ss_landuse_polygon.geojson)|Openstreetmap|LULC|GeoJSON|Extracted February 2014 - Access more recent versions [here](http://osm.org)|
 |[UMD - Global Forest Cover Change 2000-2012](http://earthenginepartners.appspot.com/science-2013-global-forest/download.html)|University of Maryland/Google|LULC|GeoTIFF|Available in Tiled Format|
 |[Africover - Land Cover Datasets](http://www.fao.org/geonetwork/srv/en/main.search?title=africover%20landcover%20sudan)|FAO/GLCN - Africover|LULC|GeoTIFF|Outdated - imagery vintage is 1994-1999|
 |[National LULC 2010](http://www.glcn.org/downs/prj/ssud/ssud_lc_poster.pdf)|FAO/GLCN - Africover|LULC|PDF|Unfortunately not available here in portable format - imagery vintage is 2010|
 |[MODIS Land Cover](https://lpdaac.usgs.gov/products/modis_products_table/mcd12q1)|Boston University/NASA|LULC|HDF/GeoTIFF|Coarse resolution w/ high category detail|
+|[OSM - Land Use](../geodata/osm/ss_landuse_polygon.geojson)|Openstreetmap|LULC|GeoJSON|Extracted February 2014 - Access more recent versions [here](http://osm.org)|
+
+> Additional Academic Studies of land use/land cover in South Sudan are [available here](https://delicious.com/vtcraghead/ssudan,academic), though not with downloadable datasets.
 
 
 ### Built Infrastructure
