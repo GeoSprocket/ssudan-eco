@@ -6,4 +6,4 @@ Repository for datasets and tools related to biodiversity assessment in South Su
 
 * [Hosted resources](geodata/) are compiled by provider organization and are available for download
 
-* See the [existing dataset report](docs/resources-list.md) for background information on environmentally-focused geodata
+* See the [existing dataset report](docs/existing-datasets.md) for background information on environmentally-focused geodata
