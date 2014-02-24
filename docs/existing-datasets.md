@@ -40,8 +40,24 @@ Datasets are categorized by broad theme below. Some are hosted in this repositor
 |[UNDP - Roads](../geodata/unitar/undp_roads.geojson)|UNITAR|Built Infrastructure|GeoJSON|Not as extensive as OSM|
 
 
-
 ### Political Boundaries & Places
+
+|Name|Source|Type|Format|Notes|
+| ------ | ------ | ------ | ------ | ------ |
+|[Africover - Major Towns](../geodata/africover/africvr_sd_towns_major.geojson)|FAO - Africover|Places|GeoJSON|Data fro pre-independence|
+|[Africover - Minor Towns](../geodata/africover/africvr_sd_towns_other.geojson)|FAO - Africover|Places|GeoJSON|Data fro pre-independence|
+|[Natural Earth - Disputed Areas](../geodata/natural_earth/ne_disputed_areas.geojson)|Natural Earth|Political Boundaries|GeoJSON|Moderate resolution|
+|[Natural Earth - Populated Places](../geodata/natural_earth/ne_populated_places.geojson)|Natural Earth|Places|GeoJSON||
+|[Natural Earth - National Boundary](../geodata/natural_earth/south_sudan_ne.geojson)|Natural Earth|Political Boundaries|GeoJSON|Does not conform exactly with other datasets|
+|[OSM - National Boundary](../geodata/osm/south_sudan_osm.geojson)|Openstreetmap|Political Boundaries|GeoJSON|Matches GAUL, encompasses disputed areas|
+|[OSM - National AOI](../geodata/osm/south_sudan_osm_roi20km.geojson)|Openstreetmap|Political Boundaries|GeoJSON|Used as the clip boundary for all other datasets|
+|[OSM - States](../geodata/osm/ss_place_polygon.geojson)|Openstreetmap|Political Boundaries|GeoJSON|County designation in Upper Nile State Unclear|
+|[OSM - Populated Places](../geodata/osm/ss_place_point.geojson)|Openstreetmap|Places|GeoJSON|Not as extensive as UNITAR or Africover|
+|[UNDP - Counties](../geodata/unitar/undp_ss_county.geojson)|UNITAR|Political Boundaries|GeoJSON|Covers all but a small disputed section of Kafia Kingi|
+|[UNDP - States](../geodata/unitar/undp_states.geojson)|UNITAR|Political Boundaries|GeoJSON|Authoritative|
+|[UNITAR - Polling Stations](../geodata/unitar/unitar_pollingstations.geojson)|UNITAR|Places|GeoJSON|Used for independence referendum|
+|[UNITAR - Populated Places](../geodata/unitar/unitar_settlements.geojson)|UNITAR|Places|GeoJSON|Authoritative|
+
 
 ### Hydrology
 
