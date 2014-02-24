@@ -26,6 +26,10 @@ Datasets are categorized by broad theme below. Some are hosted in this repositor
 |Name|Source|Type|Format|Notes|
 | ------ | ------ | ------ | ------ | ------ |
 |[OSM - Land Use](../geodata/osm/ss_landuse_polygon.geojson)|Openstreetmap|LULC|GeoJSON|Extracted February 2014 - Access more recent versions [here](http://osm.org)|
+|[UMD - Global Forest Cover Change 2000-2012](http://earthenginepartners.appspot.com/science-2013-global-forest/download.html)|University of Maryland/Google|LULC|GeoTIFF|Available in Tiled Format|
+|[Africover - Land Cover Datasets](http://www.fao.org/geonetwork/srv/en/main.search?title=africover%20landcover%20sudan)|FAO/GLCN - Africover|LULC|GeoTIFF|Outdated - imagery vintage is 1994-1999|
+|[National LULC 2010](http://www.glcn.org/downs/prj/ssud/ssud_lc_poster.pdf)|FAO/GLCN - Africover|LULC|PDF|Unfortunately not available here in portable format - imagery vintage is 2010|
+|[MODIS Land Cover](https://lpdaac.usgs.gov/products/modis_products_table/mcd12q1)|Boston University/NASA|LULC|HDF/GeoTIFF|Coarse resolution w/ high category detail|
 
 
 ### Built Infrastructure
@@ -90,11 +94,11 @@ Datasets are categorized by broad theme below. Some are hosted in this repositor
 
 ## Data Providers
 
-* FAO/GLCB (Africover)
-* ECOS
-* IUCN
-* Natural Earth
-* OpenStreetmap
-* UNITAR
-* WDPA
-* Google
+* [FAO/GLCN (Africover)](http://www.glcn.org/activities/ssud_lc_en.jsp) - Global Land Cover Network
+* [ECOS](http://www.ecosonline.org/oilmap/) - European Coalition on Oil in Sudan
+* [IUCN](http://www.iucn.org/about/work/programmes/species/who_we_are/ssc_specialist_groups_and_red_list_authorities_directory/mammals/african_elephant/) - International Union for the Conservation of Nature
+* [Natural Earth Data](http://www.naturalearthdata.com/downloads/)
+* [OpenStreetmap](http://www.openstreetmap.org/#map=15/9.5382/31.6575&layers=HD)
+* [UNITAR](http://www.unitar.org/unosat/sudan) - United Nations Institute for Training and Research
+* [WDPA](http://www.wdpa.org/) - World Database of Prottected Areas
+* [Google](https://services.google.com/fb/forms/mapmakerdatadownload/) - Compiled via directed Map Maker initiative
