@@ -23,10 +23,16 @@ Datasets are categorized by broad theme below. Some are hosted in this repositor
 
 ### Land Use & Land Cover
 
+|Name|Source|Type|Format|Notes|
+| ------ | ------ | ------ | ------ | ------ |
+|[OSM - Land Use](../geodata/osm/ss_landuse_polygon.geojson)|Openstreetmap|LULC|GeoJSON|Extracted February 2014 - Access more recent versions [here](http://osm.org)|
+
 
 ### Built Infrastructure
 
-### Political Boundaries
+
+
+### Political Boundaries & Places
 
 ### Hydrology
 
@@ -40,7 +46,22 @@ Datasets are categorized by broad theme below. Some are hosted in this repositor
 |[OSM - Wetland Polygons](../geodata/osm/ss_natural_polygon.geojson)|OpenStreetmap|Hydrology|GeoJSON|Extracted February 2014 - Access more recent versions [here](http://osm.org)|
 
 
-### Protected Areas
+### Protected/Habitat Areas
+
+|Name|Source|Type|Format|Notes|
+| ------ | ------ | ------ | ------ | ------ |
+|[IUCN - Elephant Range](../geodata/iucn/iucn_elephant_range_2007.geojson)|International Union for the Conservation of Nature|Habitat|GeoJSON|2007 Vintage - Currently being updated|
+|[OSM - Conservation Areas](../geodata/osm/ss_conservation_areas.geojson)|Openstreetmap|Protected Areas|GeoJSON|Extracted February 2014 - Access more recent versions [here](http://osm.org)|
+|[WDPA - Protected Areas](../geodata/wdpa/wdpa_ssudan.geojson)|World Database of Protected Areas|Protected Areas|GeoJSON|Poor data availability in South Sudan|
+
+
+### Mineral Resources
+
+|Name|Source|Type|Format|Notes|
+| ------ | ------ | ------ | ------ | ------ |
+|[ECOS - Oil Concessions](../geodata/ecos/ecos_oil_concessions_2007.geojson)|European Coalition on Oil in Sudan|Mineral|GeoJSON|2007 Vintage - Provided on [ECOS Homepage](http://www.ecosonline.org/oilmap/) with notes about planned subdivision of concession block B |
+|[ECOS - Oil Fields of Abyei](http://www.ecosonline.org/news/2010/Abyei_nearby_oil_fields.pdf)|European Coalition on Oil in Sudan|Mineral|PDF|2006 Vintage - Oil production in a disputed area.|
+
 
 ## Data Providers
 
