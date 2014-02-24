@@ -23,11 +23,24 @@ Datasets are categorized by broad theme below. Some are hosted in this repositor
 
 ### Land Use & Land Cover
 
+
 ### Built Infrastructure
 
 ### Political Boundaries
 
 ### Hydrology
+
+|Name|Source|Type|Format|Notes|
+| ------ | ------ | ------ | ------ | ------ |
+|[Africover-Rivers](../geodata/africover/africvr_sd_rivers.geojson)|FAO - Africover|Hydrology|GeoJSON|Outdated - Imagery ca. 1995-1999|
+|[Africover-Surface Water](../geodata/africover/africvr_surface_water.geojson)|FAO - Africover|Hydrology|GeoJSON|Outdated - Imagery ca. 1995-1999|
+|[OSM - Waterway Polygon](../geodata/osm/ss_waterway_polygon.geojson)|OpenStreetmap|Hydrology|GeoJSON|Extracted February 2014 - Access more recent versions [here](http://osm.org)|
+|[OSM - Waterway Point](../geodata/osm/ss_waterway_point.geojson)|OpenStreetmap|Hydrology|GeoJSON|Extracted February 2014 - Access more recent versions [here](http://osm.org)|
+|[OSM - Waterway Line](../geodata/osm/ss_waterway_line.geojson)|OpenStreetmap|Hydrology|GeoJSON|Extracted February 2014 - Access more recent versions [here](http://osm.org)|
+|[OSM - Wetland Polygons](../geodata/osm/ss_natural_polygon.geojson)|OpenStreetmap|Hydrology|GeoJSON|Extracted February 2014 - Access more recent versions [here](http://osm.org)|
+
+
+### Protected Areas
 
 ## Data Providers
 
