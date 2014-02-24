@@ -102,3 +102,10 @@ Datasets are categorized by broad theme below. Some are hosted in this repositor
 * [UNITAR](http://www.unitar.org/unosat/sudan) - United Nations Institute for Training and Research
 * [WDPA](http://www.wdpa.org/) - World Database of Prottected Areas
 * [Google](https://services.google.com/fb/forms/mapmakerdatadownload/) - Compiled via directed Map Maker initiative
+
+## Tools for Working With Geospatial Data
+
+* [OGRE](http://ogre.adc4gis.com/) - Online conversion to/from GeoJSON and Shapefile formats
+* [Quantum GIS](http://qgis.org/en/site/) - Full-features Open-Source desktop GIS platform
+* [geojson.io](http://geojson.io) - Online GIS editing application; GeoJSON-native
+* [GDAL/OGR](http://www.gdal.org/) - The Geographic Data Abstraction Library; meant for programmatic dataset manipulation
