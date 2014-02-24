@@ -30,6 +30,15 @@ Datasets are categorized by broad theme below. Some are hosted in this repositor
 
 ### Built Infrastructure
 
+|Name|Source|Type|Format|Notes|
+| ------ | ------ | ------ | ------ | ------ |
+|[OSM - Roads](../geodata/osm/highway_line.geojson)|Openstreetmap|Built Infrastructure|GeoJSON|Extracted February 2014 - Access more recent versions [here](http://osm.org)|
+|[OSM - Airfields](../geodata/osm/ss_aeroway_point.geojson)|Openstreetmap|Built Infrastructure|GeoJSON|Extracted February 2014 - Access more recent versions [here](http://osm.org)|
+|[OSM - Walls/Barriers](../geodata/osm/ss_barrier_line.geojson)|Openstreetmap|Built Infrastructure|GeoJSON|Extracted February 2014 - Access more recent versions [here](http://osm.org)|
+|[OSM - Railway](../geodata/osm/ss_railway_line.geojson)|Openstreetmap|Built Infrastructure|GeoJSON|Extracted February 2014 - Access more recent versions [here](http://osm.org)|
+|[UNDP - Airfields](../geodata/unitar/undp_airfields.geojson)|UNITAR|Built Infrastructure|GeoJSON|Authoritative|
+|[UNDP - Roads](../geodata/unitar/undp_roads.geojson)|UNITAR|Built Infrastructure|GeoJSON|Not as extensive as OSM|
+
 
 
 ### Political Boundaries & Places
