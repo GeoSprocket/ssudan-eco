@@ -15,4 +15,4 @@ The subset of this data available here was clipped to the South Sudan ROI polygo
 
 For the current study, and attempt was made to adapt part of the Hansen methodology to identify patterns of desertification over the same time period in the Sahelian region of South Sudan. Specifically, this included the same imagery inputs in a Random Forests ensemble classification scheme trained with ancillary datsets such as Africover and high-resolution imagery. However, results were not promising with well under 60% accuracy assessed, and the approach was abandoned.
 
-__Note: the static version of the forest cover change map includes barely-perceptible instances of forest cover loss; these are mostly concentrrated in the vicinity og Bor and Yei.__
+__Note: the static version of the forest cover change map includes barely-perceptible instances of forest cover loss; these are mostly concentrated in the vicinity og Bor and Yei.__
