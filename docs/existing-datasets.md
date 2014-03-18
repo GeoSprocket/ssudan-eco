@@ -44,6 +44,8 @@ Datasets are categorized by broad theme below. Some are hosted in this repositor
 |[OSM - Railway](../geodata/osm/ss_railway_line.geojson)|Openstreetmap|Built Infrastructure|GeoJSON|Extracted February 2014 - Access more recent versions [here](http://osm.org)|
 |[UNDP - Airfields](../geodata/unitar/undp_airfields.geojson)|UNITAR|Built Infrastructure|GeoJSON|Authoritative|
 |[UNDP - Roads](../geodata/unitar/undp_roads.geojson)|UNITAR|Built Infrastructure|GeoJSON|Not as extensive as OSM|
+|[GAM - Travel Time](../geodata/nelson/ssudan_travel_time_to_city.geojson)|Nelson et al. (2008)|Built Infrastructure|GeoJSON|Dated - Based on Yr 2000|
+
 
 
 ### Political Boundaries & Places
