@@ -1,171 +1,196 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta http-equiv="content-type" content="text/html; charset=UTF-8"> 
-        <title>Bootply.com - Landing Page</title>
-        <meta name="generator" content="Bootply" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-        <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css" rel="stylesheet">
-        
-        <!--[if lt IE 9]>
-          <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
-        <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" type="text/css" rel="stylesheet">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="assets/ico/favicon.png">
 
+    <title>South Sudan Biodiversity Data</title>
 
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
 
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
 
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
 
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
 
-
-
-
-        <!-- CSS code from Bootply.com editor -->
-        
-        <style type="text/css">
-            html,body {
-  height:100%;
-}
-
-h1 {
-  font-family: Arial,sans-serif
-  font-size:80px;
-  color:#DDCCEE;
-}
-
-.lead {
-	color:#DDCCEE;
-}
-
-
-/* Custom container */
-.container-full {
-  margin: 0 auto;
-  width: 100%;
-  min-height:100%;
-  background-color:#110022;
-  color:#eee;
-  overflow:hidden;
-}
-
-.container-full a {
-  color:#efefef;
-  text-decoration:none;
-}
-
-.v-center {
-  margin-top:7%;
-}
-  
-        </style>
-    </head>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
     
-    <!-- HTML code from Bootply.com editor -->
+    <script src="assets/js/modernizr.custom.js"></script>
     
-    <body  >
-        
-        <div class="container-full">
+  </head>
 
-      <div class="row">
-       
-        <div class="col-lg-12 text-center v-center">
-          
-          <h1>South Sudan Spatial Data</h1>
-          <p class="lead">A repository of environmental and infrastructure geodata</p>
-          
-          <br><br><br>
-          
-          <form class="col-lg-12">
-            <div class="input-group" style="width:340px;text-align:center;margin:0 auto;">
-            <input class="form-control input-lg" title="Search" placeholder="Search" type="text">
-              <span class="input-group-btn"><button class="btn btn-lg btn-primary" type="button"><a><i class="glyphicon glyphicon-search"></i></a></button></span>
-            </div>
-          </form>
-        </div>
-        
-      </div> <!-- /row -->
-  
-  	  <div class="row">
-       
-        <div class="col-lg-12 text-center v-center" style="font-size:39pt;">
-          <a href="#"><i class="icon-google-plus"></i></a> <a href="#"><i class="icon-facebook"></i></a>  <a href="#"><i class="icon-twitter"></i></a> <a href="#"><i class="icon-github"></i></a> <a href="#"><i class="icon-pinterest"></i></a>
-        </div>
-      
+  <body ng-app="">
+
+	<!-- Menu -->
+	<nav class="menu" id="theMenu">
+		<div class="menu-wrap">
+			<h1 class="logo"><a href="index.html#home">LINK</a></h1>
+			<i class="fa fa-arrow-right menu-close"></i>
+			<a href="index.html">Home</a>
+			<a href="overview.html">Overview</a>
+			<a href="methods.html">Methods</a>
+			<a href="resources.html">Resources</a>
+		</div>
+		
+		<!-- Menu button -->
+		<div id="menuToggle"><i class="fa fa-bars"></i></div>
+	</nav>
+	
+	<!-- MAIN IMAGE SECTION -->
+	<div id="headerwrap">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+					<h1>south sudan</h1>
+					<h3 style="color:#fff" >tropical forests and biological diversity assessment database</h3>
+					<div class="spacer"></div>
+					<i class="fa fa-angle-down"></i>
+				</div>
+			</div><!-- row -->
+		</div><!-- /container -->
+	</div><!-- /headerwrap -->
+
+	<!-- WELCOME SECTION -->
+    <div class="container">
+    	<div ng-init="dataz = [{name:'John', phone:'555-1276'},
+                           {name:'Mary', phone:'800-BIG-MARY'},
+                           {name:'Mike', phone:'555-4321'},
+                           {name:'Adam', phone:'555-5678'},
+                           {name:'Julie', phone:'555-8765'},
+                           {name:'Juliette', phone:'555-5678'}]">
       </div>
-  
-  	<br><br><br><br><br>
 
-</div> <!-- /container full -->
+      <div class="row mt">
+      	<div class="col-lg-8">
+	        <h1>Explore the Data</h1>
+	        <p>Browse and access the datasets that were used in the 2014 South Sudan Tropical Forests And Biodiversity Threats And Opportunities Assessment</p>
+      	</div>
+      	<div class="col-lg-4">
+      		<p class="pull-right"><br><input ng-model="searchText" class="form-control input-lg" type="text" placeholder="Search"></p>
+      	</div>
+      </div><!-- /row -->
+    </div><!-- /.container -->
+    
+    <div class="container">
+		  <div id="searchTextResults">
+		    <div ng-repeat="record in dataz | filter:searchText">
+		      <a>{{record.name}}</a>
+		      <a>{{record.phone}}</a>
+		    </div>
+		  </div>
+		</div>
 
-<div class="container">
-  
-  	<hr>
-  
-  	<div class="row">
-        <div class="col-md-4">
-          <div class="panel panel-default">
-            <div class="panel-heading"><h3>Hello.</h3></div>
-            <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. 
-            Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis 
-            dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. 
-            Aliquam in felis sit amet augue.
-            </div>
-          </div>
-        </div>
-      	<div class="col-md-4">
-        	<div class="panel panel-default">
-            <div class="panel-heading"><h3>Hello.</h3></div>
-            <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. 
-            Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis 
-            dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. 
-            Aliquam in felis sit amet augue.
-            </div>
-          </div>
-        </div>
-      	<div class="col-md-4">
-        	<div class="panel panel-default">
-            <div class="panel-heading"><h3>Hello.</h3></div>
-            <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. 
-            Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis 
-            dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. 
-            Aliquam in felis sit amet augue.
-            </div>
-          </div>
-        </div>
-    </div>
-  
-	<div class="row">
-        <div class="col-lg-12">
-        <br><br>
-          <!--<p class="pull-right"><a href="http://www.bootply.com">Template from Bootply</a> &nbsp; ©Copyright 2013 ACME<sup>TM</sup> Brand.</p>-->
-        <br><br>
-        </div>
-    </div>
-</div>
+    <!-- PORTFOLIO SECTION -->
+    <div id="portfolio">
+    	<div class="container">
+	    	<div class="row mt" id="searchTextResults">
+				<ul class="grid effect-2" id="grid" ng-repeat="record in dataz | filter:searchText">
+					<li><h2>{{record.name}} - {{record.source}}</h2><a href="{{record.subgiturl}}"><img src="images/{{record.image}}"></a></li>
+				</ul>
+	    	</div><!-- row -->
+	    </div><!-- container -->
+    </div><!-- portfolio -->
 
+	
+	<!-- BLOG POSTS -->
+	<div class="container">
+		<div class="row mt">
+			<div class="col-lg-12">
+				<h1>Documentation</h1>
+			</div><!-- col-lg-12 -->
+		</div><!-- row -->
+		
+		<div class="row mt">
+			<div class="col-lg-4">
+				<i class="fa fa-globe fa-5x"></i>
+				<h3><a href="#">Overview</a></h3>
+				<p>Context for this analysis of threats and opportunities for biodiversity and forests in South Sudan</p>
+				<p><a href="overview.html"><i class="fa fa-link"></i> Read More</a></p>
+			</div>
+			<div class="col-lg-4">
+				<i class="fa fa-gears fa-5x"></i>
+				<h3><a href="#">Methods</a></h3>
+				<p>Tools and tactics used to analyze these datasets</p>
+				<p><a href="methods.html"><i class="fa fa-link"></i> Read More</a></p>
+			</div>
+			<div class="col-lg-4">
+				<i class="fa fa-list fa-5x"></i>
+				<h3><a href="#">Resources</a></h3>
+				<p>A collection of existing datasets drawn from government, nonprofit and academic sources</p>
+				<p><a href="resources.html"><i class="fa fa-link"></i> Read More</a></p>
+			</div>		
+		</div><!-- row -->
+	</div><!-- container -->
+	
+	
+	<!-- CLIENTS LOGOS -->
+	<div id="lg">
+		<div class="container">
+			<div class="row centered">
+				<div class="col-lg-8 col-lg-offset-2 inline">
+					<h2>A <img src="assets/img/clients/usaid.png" width="270px" alt=""> Project </h2>
+				</div>
+			</div><!-- row -->
+		</div><!-- container -->
+	</div><!-- dg -->
+	
+	
+	<!-- CALL TO ACTION -->
+	<div id="call">
+		<div class="container">
+			<div class="row">
+				<h3>Contribute and Collaborate</h3>
+				<div class="col-lg-8 col-lg-offset-2">
+					<p>If you've found useful information here, consider contributing additional datasets or edits to these.</p>
+					<p><a href="https://github.com/GeoSprocket/ssudan-eco" target="_blank" ><button type="button" class="btn btn-green btn-lg"><i class="fa fa-github"></i> View the Repository on Github</button></a></p>
+				</div>
+			</div><!-- row -->
+		</div><!-- container -->
+	</div><!-- Call to action -->
+	
+	
+	<!-- CONTACT FOOTER -->
+	<div id="cf">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-10 col-lg-offset-1"><hr>
+					Prepared by Geosprocket LLC, subcontractor to The Cadmus Group, Inc. under USAID's Global Environmental Management Support Program, Contract Number GS-10F-0105J. The contents are the sole responsibility of the authors and do not necessarily reflect the views of USAID or the United States Government.<hr>
+				</div>
+			</div><!-- row -->
+		</div><!-- container -->
+	</div><!-- Contact Footer -->
+	
 
-        
-        <script type='text/javascript' src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-
-
-        <script type='text/javascript' src="//netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
-
-
-
-
-
-        
-        <!-- JavaScript jQuery code from Bootply.com editor -->
-        
-        <script type='text/javascript'>
-        
-        $(document).ready(function() {
-        
-            
-        
-        });
-        
-        </script>
-        
-    </body>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.3/angular.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/protractor.js"></script>
+	<script src="assets/js/masonry.pkgd.min.js"></script>
+	<script src="assets/js/imagesloaded.js"></script>
+    <script src="assets/js/classie.js"></script>
+	<script src="assets/js/AnimOnScroll.js"></script>
+	<script>
+		new AnimOnScroll( document.getElementById( 'grid' ), {
+			minDuration : 0.4,
+			maxDuration : 0.7,
+			viewportFactor : 0.2
+		} );
+	</script>
+  </body>
 </html>

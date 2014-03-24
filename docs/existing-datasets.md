@@ -13,7 +13,7 @@ A major component of this study is an audit of existing geospatial resources tha
 
 ### Note on Edits & Contributions
 
-This catalog is not static, and it is only possible to keep it updated with support from community stakeholders. As such, all contructive [pull requests](https://help.github.com/articles/using-pull-requests) will be honored, with the hope that valuable contributions will keep this resource current.
+This catalog is not static, and it is only possible to keep it updated with support from community stakeholders. As such, all constructive [pull requests](https://help.github.com/articles/using-pull-requests) will be honored, with the hope that valuable contributions will keep this resource current.
 
 ## Dataset Categories
 
