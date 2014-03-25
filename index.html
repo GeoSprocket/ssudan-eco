@@ -36,7 +36,7 @@
 	<!-- Menu -->
 	<nav class="menu" id="theMenu">
 		<div class="menu-wrap">
-			<h1 class="logo"><a href="index.html#home">LINK</a></h1>
+			<h1 class="logo"><a href="index.html#home"></a></h1>
 			<i class="fa fa-arrow-right menu-close"></i>
 			<a href="index.html">Home</a>
 			<a href="overview.html">Overview</a>
@@ -64,12 +64,32 @@
 
 	<!-- WELCOME SECTION -->
     <div class="container">
-    	<div ng-init="dataz = [{name:'John', phone:'555-1276'},
-                           {name:'Mary', phone:'800-BIG-MARY'},
-                           {name:'Mike', phone:'555-4321'},
-                           {name:'Adam', phone:'555-5678'},
-                           {name:'Julie', phone:'555-8765'},
-                           {name:'Juliette', phone:'555-5678'}]">
+    	<div ng-init="dataz = [
+			  {
+			    'name':'Rivers',
+			    'image':'layer.png',
+			    'type':'geojson',
+			    'subgiturl':'geodata/africover/africvr_sd_rivers.geojson',
+			    'tags':'',
+			    'source':'Africover'
+			  },
+			  {
+			    'name':'Cities',
+			    'image':'layer.png',
+			    'type':'geojson',
+			    'subgiturl':'geodata/africover/africvr_sd_towns_major.geojson',
+			    'tags':'',
+			    'source':'Africover'
+			  },
+			  {
+			    'name':'Travel Time',
+			    'image':'16-travel-time.jpg',
+			    'type':'Map Image',
+			    'subgiturl':'images/16-travel-time.jpg',
+			    'tags':'',
+			    'source':'EU Joint Research Center'
+			  }
+			]">
       </div>
 
       <div class="row mt">
@@ -82,26 +102,22 @@
       	</div>
       </div><!-- /row -->
     </div><!-- /.container -->
+
     
-    <div class="container">
-		  <div id="searchTextResults">
-		    <div ng-repeat="record in dataz | filter:searchText">
-		      <a>{{record.name}}</a>
-		      <a>{{record.phone}}</a>
-		    </div>
-		  </div>
-		</div>
+
 
     <!-- PORTFOLIO SECTION -->
     <div id="portfolio">
+			
+		
     	<div class="container">
 	    	<div class="row mt" id="searchTextResults">
 				<ul class="grid effect-2" id="grid" ng-repeat="record in dataz | filter:searchText">
 					<li><h2>{{record.name}} - {{record.source}}</h2><a href="{{record.subgiturl}}"><img src="images/{{record.image}}"></a></li>
 				</ul>
-	    	</div><!-- row -->
-	    </div><!-- container -->
-    </div><!-- portfolio -->
+	    	</div>
+	    </div>
+    </div>
 
 	
 	<!-- BLOG POSTS -->
@@ -176,8 +192,8 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.3/angular.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/protractor.js"></script>
