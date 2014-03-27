@@ -62,22 +62,52 @@
 		</div><!-- /container -->
 	</div><!-- /headerwrap -->
 
+	<!-- BLOG POSTS -->
+	<div class="container">
+		<div class="row mt">
+			<div class="col-lg-12">
+				<h1>Documentation</h1>
+			</div><!-- col-lg-12 -->
+		</div><!-- row -->
+		
+		<div class="row mt">
+			<div class="col-lg-4">
+				<i class="fa fa-globe fa-5x"></i>
+				<h3><a href="#">Overview</a></h3>
+				<p>Context for this analysis of threats and opportunities for biodiversity and forests in South Sudan</p>
+				<p><a href="overview.html"><i class="fa fa-link"></i> Read More</a></p>
+			</div>
+			<div class="col-lg-4">
+				<i class="fa fa-gears fa-5x"></i>
+				<h3><a href="#">Methods</a></h3>
+				<p>Tools and tactics used to analyze these datasets</p>
+				<p><a href="methods.html"><i class="fa fa-link"></i> Read More</a></p>
+			</div>
+			<div class="col-lg-4">
+				<i class="fa fa-list fa-5x"></i>
+				<h3><a href="#">Resources</a></h3>
+				<p>A collection of existing datasets drawn from government, nonprofit and academic sources</p>
+				<p><a href="resources.html"><i class="fa fa-link"></i> Read More</a></p>
+			</div>		
+		</div><!-- row -->
+	</div><!-- container -->
+
 	<!-- WELCOME SECTION -->
     <div class="container">
     	<div ng-init="dataz = [
 			  {
 			    'name':'Rivers',
-			    'image':'layer.png',
+			    'image':'maplayer.png',
 			    'type':'geojson',
-			    'subgiturl':'geodata/africover/africvr_sd_rivers.geojson',
+			    'subgiturl':'master/geodata/africover/africvr_sd_rivers.geojson',
 			    'tags':'',
 			    'source':'Africover'
 			  },
 			  {
 			    'name':'Cities',
-			    'image':'layer.png',
+			    'image':'maplayer.png',
 			    'type':'geojson',
-			    'subgiturl':'geodata/africover/africvr_sd_towns_major.geojson',
+			    'subgiturl':'master/geodata/africover/africvr_sd_towns_major.geojson',
 			    'tags':'',
 			    'source':'Africover'
 			  },
@@ -85,9 +115,361 @@
 			    'name':'Travel Time',
 			    'image':'16-travel-time.jpg',
 			    'type':'Map Image',
-			    'subgiturl':'images/16-travel-time.jpg',
+			    'subgiturl':'master/images/16-travel-time.jpg',
 			    'tags':'',
 			    'source':'EU Joint Research Center'
+			  },
+			  {
+			    'name':'Towns',
+			    'image':'maplayer.png',
+			    'type':'geojson',
+			    'subgiturl':'master/geodata/africover/africvr_sd_towns_other.geojson',
+			    'tags':'',
+			    'source':'Africover'
+			  },
+			  {
+			    'name':'Surface Water',
+			    'image':'maplayer.png',
+			    'type':'geojson',
+			    'subgiturl':'master/geodata/africover/africvr_surface_water.geojson',
+			    'tags':'',
+			    'source':'Africover'
+			  },
+			  {
+			    'name':'Oil Concessions',
+			    'image':'maplayer.png',
+			    'type':'geojson',
+			    'subgiturl':'master/geodata/ecos/oil_concessions_2007.geojson',
+			    'tags':'',
+			    'source':'ECOS'
+			  },
+			  {
+			    'name':'Oil Pipelines',
+			    'image':'maplayer.png',
+			    'type':'geojson',
+			    'subgiturl':'master/geodata/ecos/oil_pipelines_2007.geojson',
+			    'tags':'',
+			    'source':'ECOS'
+			  },
+			  {
+			    'name':'Rangeland Loss 2003-2013',
+			    'image':'maplayer.png',
+			    'type':'geojson',
+			    'subgiturl':'master/geodata/geosprocket/ssudan_rangeland_loss_2003-2013.geojson\n',
+			    'tags':'',
+			    'source':'Geosprocket'
+			  },
+			  {
+			    'name':'Forest Cover Loss 2000-2012',
+			    'image':'maplayer.png',
+			    'type':'geojson',
+			    'subgiturl':'master/geodata/hansen/ssudan_forest_loss_2000-2012.geojson',
+			    'tags':'',
+			    'source':'Hansen et al.'
+			  },
+			  {
+			    'name':'Elephant Range 2007',
+			    'image':'maplayer.png',
+			    'type':'geojson',
+			    'subgiturl':'master/geodata/iucn/iucn_elephant_range_2007.geojson',
+			    'tags':'',
+			    'source':'IUCN'
+			  },
+			  {
+			    'name':'Elephant Range 2012',
+			    'image':'maplayer.png',
+			    'type':'geojson',
+			    'subgiturl':'master/geodata/iucn/iucn_elephant_range_2012.geojson',
+			    'tags':'',
+			    'source':'IUCN'
+			  },
+			  {
+			    'name':'Permanent Wetlands',
+			    'image':'maplayer.png',
+			    'type':'topojson',
+			    'subgiturl':'master/geodata/nasa/ssudan_modis_wetlands_2012.topojson',
+			    'tags':'',
+			    'source':'NASA'
+			  },
+			  {
+			    'name':'Disputed Areas',
+			    'image':'maplayer.png',
+			    'type':'geojson',
+			    'subgiturl':'master/geodata/natural_earth/ne_disputed_areas.geojson',
+			    'tags':'',
+			    'source':'Natural Earth'
+			  },
+			  {
+			    'name':'Populated Places',
+			    'image':'maplayer.png',
+			    'type':'geojson',
+			    'subgiturl':'master/geodata/natural_earth/ne_populated_places.geojson',
+			    'tags':'',
+			    'source':'Natural Earth'
+			  },
+			  {
+			    'name':'National Border',
+			    'image':'maplayer.png',
+			    'type':'geojson',
+			    'subgiturl':'master/geodata/natural_earth/south_sudan_ne.geojson',
+			    'tags':'',
+			    'source':'Natural Earth'
+			  },
+			  {
+			    'name':'Travel Time to Cities',
+			    'image':'maplayer.png',
+			    'type':'geojson',
+			    'subgiturl':'master/geodata/nelson/ssudan_travel_time_to_city.geojson',
+			    'tags':'',
+			    'source':'Nelson et al.'
+			  },
+			  {
+			    'name':'Airfields',
+			    'image':'maplayer.png',
+			    'type':'geojson',
+			    'subgiturl':'master/geodata/unitar/undp_airfields.geojson',
+			    'tags':'',
+			    'source':'UNITAR'
+			  },
+			  {
+			    'name':'Roads',
+			    'image':'maplayer.png',
+			    'type':'geojson',
+			    'subgiturl':'master/geodata/unitar/undp_roads.geojson',
+			    'tags':'',
+			    'source':'UNITAR'
+			  },
+			  {
+			    'name':'Counties',
+			    'image':'maplayer.png',
+			    'type':'geojson',
+			    'subgiturl':'master/geodata/unitar/undp_ss_county.geojson',
+			    'tags':'',
+			    'source':'UNITAR'
+			  },
+			  {
+			    'name':'States',
+			    'image':'maplayer.png',
+			    'type':'geojson',
+			    'subgiturl':'master/geodata/unitar/undp_states.geojson',
+			    'tags':'',
+			    'source':'UNITAR'
+			  },
+			  {
+			    'name':'Polling Stations',
+			    'image':'maplayer.png',
+			    'type':'geojson',
+			    'subgiturl':'master/geodata/unitar/unitar_pollingstations.geojson',
+			    'tags':'',
+			    'source':'UNITAR'
+			  },
+			  {
+			    'name':'Settlements',
+			    'image':'maplayer.png',
+			    'type':'geojson',
+			    'subgiturl':'master/geodata/unitar/unitar_settlements.geojson',
+			    'tags':'',
+			    'source':'UNITAR'
+			  },
+			  {
+			    'name':'Geologic Provinces',
+			    'image':'maplayer.png',
+			    'type':'geojson',
+			    'subgiturl':'master/geodata/usgs/ssudan_geologic_provinces.geojson',
+			    'tags':'',
+			    'source':'USGS'
+			  },
+			  {
+			    'name':'Surficial Geology',
+			    'image':'maplayer.png',
+			    'type':'geojson',
+			    'subgiturl':'master/geodata/usgs/ssudan_surficial_geology.geojson',
+			    'tags':'',
+			    'source':'USGS'
+			  },
+			  {
+			    'name':'Protected Areas',
+			    'image':'maplayer.png',
+			    'type':'geojson',
+			    'subgiturl':'master/geodata/wdpa/wdpa_ssudan.geojson',
+			    'tags':'',
+			    'source':'WDPA'
+			  },
+			  {
+			    'name':'Roads',
+			    'image':'maplayer.png',
+			    'type':'geojson',
+			    'subgiturl':'master/geodata/osm/highway_line.geojson',
+			    'tags':'',
+			    'source':'OpenStreetmap'
+			  },
+			  {
+			    'name':'National Border',
+			    'image':'maplayer.png',
+			    'type':'geojson',
+			    'subgiturl':'master/geodata/osm/south_sudan_osm.geojson',
+			    'tags':'',
+			    'source':'OpenStreetmap'
+			  },
+			  {
+			    'name':'National Region of Interest',
+			    'image':'maplayer.png',
+			    'type':'geojson',
+			    'subgiturl':'master/geodata/osm/south_sudan_osm_roi20km.geojson',
+			    'tags':'',
+			    'source':'OpenStreetmap'
+			  },
+			  {
+			    'name':'Airstrip - Line',
+			    'image':'maplayer.png',
+			    'type':'geojson',
+			    'subgiturl':'master/geodata/osm/ss_aeroway_line.geojson',
+			    'tags':'',
+			    'source':'OpenStreetmap'
+			  },
+			  {
+			    'name':'Airstrip - Point',
+			    'image':'maplayer.png',
+			    'type':'geojson',
+			    'subgiturl':'master/geodata/osm/ss_aeroway_point.geojson',
+			    'tags':'',
+			    'source':'OpenStreetmap'
+			  },
+			  {
+			    'name':'Airstrip - Polygon',
+			    'image':'maplayer.png',
+			    'type':'geojson',
+			    'subgiturl':'master/geodata/osm/ss_aeroway_polygon.geojson',
+			    'tags':'',
+			    'source':'OpenStreetmap'
+			  },
+			  {
+			    'name':'Amenity - Point',
+			    'image':'maplayer.png',
+			    'type':'geojson',
+			    'subgiturl':'master/geodata/osm/ss_amenity_point.geojson',
+			    'tags':'',
+			    'source':'OpenStreetmap'
+			  },
+			  {
+			    'name':'Amenity - Polygon',
+			    'image':'maplayer.png',
+			    'type':'geojson',
+			    'subgiturl':'master/geodata/osm/ss_amenity_polygon.geojson',
+			    'tags':'',
+			    'source':'OpenStreetmap'
+			  },
+			  {
+			    'name':'Barrier - Line',
+			    'image':'maplayer.png',
+			    'type':'geojson',
+			    'subgiturl':'master/geodata/osm/ss_barrier_line.geojson',
+			    'tags':'',
+			    'source':'OpenStreetmap'
+			  },
+			  {
+			    'name':'Barrier - Point',
+			    'image':'maplayer.png',
+			    'type':'geojson',
+			    'subgiturl':'master/geodata/osm/ss_barrier_point.geojson',
+			    'tags':'',
+			    'source':'OpenStreetmap'
+			  },
+			  {
+			    'name':'Barrier - Polygon',
+			    'image':'maplayer.png',
+			    'type':'geojson',
+			    'subgiturl':'master/geodata/osm/ss_barrier_polygon.geojson',
+			    'tags':'',
+			    'source':'OpenStreetmap'
+			  },
+			  {
+			    'name':'Political Boundaries',
+			    'image':'maplayer.png',
+			    'type':'geojson',
+			    'subgiturl':'master/geodata/osm/ss_boundary_polygon.geojson',
+			    'tags':'',
+			    'source':'OpenStreetmap'
+			  },
+			  {
+			    'name':'Conservation Areas',
+			    'image':'maplayer.png',
+			    'type':'geojson',
+			    'subgiturl':'master/geodata/osm/ss_conservation_areas.geojson',
+			    'tags':'',
+			    'source':'OpenStreetmap'
+			  },
+			  {
+			    'name':'Historic Sites',
+			    'image':'maplayer.png',
+			    'type':'geojson',
+			    'subgiturl':'master/geodata/osm/ss_historic_point.geojson',
+			    'tags':'',
+			    'source':'OpenStreetmap'
+			  },
+			  {
+			    'name':'Land Use',
+			    'image':'maplayer.png',
+			    'type':'geojson',
+			    'subgiturl':'master/geodata/osm/ss_landuse_polygon.geojson',
+			    'tags':'',
+			    'source':'OpenStreetmap'
+			  },
+			  {
+			    'name':'Natural Features',
+			    'image':'maplayer.png',
+			    'type':'geojson',
+			    'subgiturl':'master/geodata/osm/ss_natural_polygon.geojson',
+			    'tags':'',
+			    'source':'OpenStreetmap'
+			  },
+			  {
+			    'name':'Places of Interest',
+			    'image':'maplayer.png',
+			    'type':'geojson',
+			    'subgiturl':'master/geodata/osm/ss_place_point.geojson',
+			    'tags':'',
+			    'source':'OpenStreetmap'
+			  },
+			  {
+			    'name':'Railway',
+			    'image':'maplayer.png',
+			    'type':'geojson',
+			    'subgiturl':'master/geodata/osm/ss_railway_line.geojson',
+			    'tags':'',
+			    'source':'OpenStreetmap'
+			  },
+			  {
+			    'name':'Routes',
+			    'image':'maplayer.png',
+			    'type':'geojson',
+			    'subgiturl':'master/geodata/osm/ss_route_line.geojson',
+			    'tags':'',
+			    'source':'OpenStreetmap'
+			  },
+			  {
+			    'name':'Sport Facilities',
+			    'image':'maplayer.png',
+			    'type':'geojson',
+			    'subgiturl':'master/geodata/osm/ss_sport_point.geojson',
+			    'tags':'',
+			    'source':'OpenStreetmap'
+			  },
+			  {
+			    'name':'Tourist Sites',
+			    'image':'maplayer.png',
+			    'type':'geojson',
+			    'subgiturl':'master/geodata/osm/ss_tourism_point.geojson',
+			    'tags':'',
+			    'source':'OpenStreetmap'
+			  },
+			  {
+			    'name':'Waterways',
+			    'image':'maplayer.png',
+			    'type':'geojson',
+			    'subgiturl':'master/geodata/osm/ss_waterway_line.geojson',
+			    'tags':'',
+			    'source':'OpenStreetmap'
 			  }
 			]">
       </div>
@@ -118,37 +500,6 @@
 	    	</div>
 	    </div>
     </div>
-
-	
-	<!-- BLOG POSTS -->
-	<div class="container">
-		<div class="row mt">
-			<div class="col-lg-12">
-				<h1>Documentation</h1>
-			</div><!-- col-lg-12 -->
-		</div><!-- row -->
-		
-		<div class="row mt">
-			<div class="col-lg-4">
-				<i class="fa fa-globe fa-5x"></i>
-				<h3><a href="#">Overview</a></h3>
-				<p>Context for this analysis of threats and opportunities for biodiversity and forests in South Sudan</p>
-				<p><a href="overview.html"><i class="fa fa-link"></i> Read More</a></p>
-			</div>
-			<div class="col-lg-4">
-				<i class="fa fa-gears fa-5x"></i>
-				<h3><a href="#">Methods</a></h3>
-				<p>Tools and tactics used to analyze these datasets</p>
-				<p><a href="methods.html"><i class="fa fa-link"></i> Read More</a></p>
-			</div>
-			<div class="col-lg-4">
-				<i class="fa fa-list fa-5x"></i>
-				<h3><a href="#">Resources</a></h3>
-				<p>A collection of existing datasets drawn from government, nonprofit and academic sources</p>
-				<p><a href="resources.html"><i class="fa fa-link"></i> Read More</a></p>
-			</div>		
-		</div><!-- row -->
-	</div><!-- container -->
 	
 	
 	<!-- CLIENTS LOGOS -->
