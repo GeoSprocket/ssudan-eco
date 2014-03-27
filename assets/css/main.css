@@ -516,7 +516,6 @@ hr {
     float: left;
     padding: 7px;
     width: 33%;
-    opacity: 0;
 }
 .grid li.shown, .no-js .grid li, .no-cssanimations .grid li {
     opacity: 1;
