@@ -96,380 +96,501 @@
     <div class="container">
     	<div ng-init="dataz = [
 			  {
-			    'name':'Rivers',
+			    'name':'Waterways',
 			    'image':'maplayer.png',
-			    'type':'geojson',
-			    'subgiturl':'master/geodata/africover/africvr_sd_rivers.geojson',
-			    'tags':'',
-			    'source':'Africover'
-			  },
-			  {
-			    'name':'Cities',
-			    'image':'maplayer.png',
-			    'type':'geojson',
-			    'subgiturl':'master/geodata/africover/africvr_sd_towns_major.geojson',
-			    'tags':'',
-			    'source':'Africover'
-			  },
-			  {
-			    'name':'Travel Time',
-			    'image':'16-travel-time.jpg',
-			    'type':'Map Image',
-			    'subgiturl':'master/images/16-travel-time.jpg',
-			    'tags':'',
-			    'source':'EU Joint Research Center'
-			  },
-			  {
-			    'name':'Towns',
-			    'image':'maplayer.png',
-			    'type':'geojson',
-			    'subgiturl':'master/geodata/africover/africvr_sd_towns_other.geojson',
-			    'tags':'',
-			    'source':'Africover'
-			  },
-			  {
-			    'name':'Surface Water',
-			    'image':'maplayer.png',
-			    'type':'geojson',
-			    'subgiturl':'master/geodata/africover/africvr_surface_water.geojson',
-			    'tags':'',
-			    'source':'Africover'
-			  },
-			  {
-			    'name':'Oil Concessions',
-			    'image':'maplayer.png',
-			    'type':'geojson',
-			    'subgiturl':'master/geodata/ecos/oil_concessions_2007.geojson',
-			    'tags':'',
-			    'source':'ECOS'
-			  },
-			  {
-			    'name':'Oil Pipelines',
-			    'image':'maplayer.png',
-			    'type':'geojson',
-			    'subgiturl':'master/geodata/ecos/oil_pipelines_2007.geojson',
-			    'tags':'',
-			    'source':'ECOS'
-			  },
-			  {
-			    'name':'Rangeland Loss 2003-2013',
-			    'image':'maplayer.png',
-			    'type':'geojson',
-			    'subgiturl':'master/geodata/geosprocket/ssudan_rangeland_loss_2003-2013.geojson\n',
-			    'tags':'',
-			    'source':'Geosprocket'
-			  },
-			  {
-			    'name':'Forest Cover Loss 2000-2012',
-			    'image':'maplayer.png',
-			    'type':'geojson',
-			    'subgiturl':'master/geodata/hansen/ssudan_forest_loss_2000-2012.geojson',
-			    'tags':'',
-			    'source':'Hansen et al.'
-			  },
-			  {
-			    'name':'Elephant Range 2007',
-			    'image':'maplayer.png',
-			    'type':'geojson',
-			    'subgiturl':'master/geodata/iucn/iucn_elephant_range_2007.geojson',
-			    'tags':'',
-			    'source':'IUCN'
-			  },
-			  {
-			    'name':'Elephant Range 2012',
-			    'image':'maplayer.png',
-			    'type':'geojson',
-			    'subgiturl':'master/geodata/iucn/iucn_elephant_range_2012.geojson',
-			    'tags':'',
-			    'source':'IUCN'
-			  },
-			  {
-			    'name':'Permanent Wetlands',
-			    'image':'maplayer.png',
-			    'type':'topojson',
-			    'subgiturl':'master/geodata/nasa/ssudan_modis_wetlands_2012.topojson',
-			    'tags':'',
-			    'source':'NASA'
-			  },
-			  {
-			    'name':'Disputed Areas',
-			    'image':'maplayer.png',
-			    'type':'geojson',
-			    'subgiturl':'master/geodata/natural_earth/ne_disputed_areas.geojson',
-			    'tags':'',
-			    'source':'Natural Earth'
-			  },
-			  {
-			    'name':'Populated Places',
-			    'image':'maplayer.png',
-			    'type':'geojson',
-			    'subgiturl':'master/geodata/natural_earth/ne_populated_places.geojson',
-			    'tags':'',
-			    'source':'Natural Earth'
-			  },
-			  {
-			    'name':'National Border',
-			    'image':'maplayer.png',
-			    'type':'geojson',
-			    'subgiturl':'master/geodata/natural_earth/south_sudan_ne.geojson',
-			    'tags':'',
-			    'source':'Natural Earth'
-			  },
-			  {
-			    'name':'Travel Time to Cities',
-			    'image':'maplayer.png',
-			    'type':'geojson',
-			    'subgiturl':'master/geodata/nelson/ssudan_travel_time_to_city.geojson',
-			    'tags':'',
-			    'source':'Nelson et al.'
-			  },
-			  {
-			    'name':'Airfields',
-			    'image':'maplayer.png',
-			    'type':'geojson',
-			    'subgiturl':'master/geodata/unitar/undp_airfields.geojson',
-			    'tags':'',
-			    'source':'UNITAR'
-			  },
-			  {
-			    'name':'Roads',
-			    'image':'maplayer.png',
-			    'type':'geojson',
-			    'subgiturl':'master/geodata/unitar/undp_roads.geojson',
-			    'tags':'',
-			    'source':'UNITAR'
-			  },
-			  {
-			    'name':'Counties',
-			    'image':'maplayer.png',
-			    'type':'geojson',
-			    'subgiturl':'master/geodata/unitar/undp_ss_county.geojson',
-			    'tags':'',
-			    'source':'UNITAR'
-			  },
-			  {
-			    'name':'States',
-			    'image':'maplayer.png',
-			    'type':'geojson',
-			    'subgiturl':'master/geodata/unitar/undp_states.geojson',
-			    'tags':'',
-			    'source':'UNITAR'
-			  },
-			  {
-			    'name':'Polling Stations',
-			    'image':'maplayer.png',
-			    'type':'geojson',
-			    'subgiturl':'master/geodata/unitar/unitar_pollingstations.geojson',
-			    'tags':'',
-			    'source':'UNITAR'
-			  },
-			  {
-			    'name':'Settlements',
-			    'image':'maplayer.png',
-			    'type':'geojson',
-			    'subgiturl':'master/geodata/unitar/unitar_settlements.geojson',
-			    'tags':'',
-			    'source':'UNITAR'
-			  },
-			  {
-			    'name':'Geologic Provinces',
-			    'image':'maplayer.png',
-			    'type':'geojson',
-			    'subgiturl':'master/geodata/usgs/ssudan_geologic_provinces.geojson',
-			    'tags':'',
-			    'source':'USGS'
-			  },
-			  {
-			    'name':'Surficial Geology',
-			    'image':'maplayer.png',
-			    'type':'geojson',
-			    'subgiturl':'master/geodata/usgs/ssudan_surficial_geology.geojson',
-			    'tags':'',
-			    'source':'USGS'
-			  },
-			  {
-			    'name':'Protected Areas',
-			    'image':'maplayer.png',
-			    'type':'geojson',
-			    'subgiturl':'master/geodata/wdpa/wdpa_ssudan.geojson',
-			    'tags':'',
-			    'source':'WDPA'
-			  },
-			  {
-			    'name':'Roads',
-			    'image':'maplayer.png',
-			    'type':'geojson',
-			    'subgiturl':'master/geodata/osm/highway_line.geojson',
-			    'tags':'',
-			    'source':'OpenStreetmap'
-			  },
-			  {
-			    'name':'National Border',
-			    'image':'maplayer.png',
-			    'type':'geojson',
-			    'subgiturl':'master/geodata/osm/south_sudan_osm.geojson',
-			    'tags':'',
-			    'source':'OpenStreetmap'
-			  },
-			  {
-			    'name':'National Region of Interest',
-			    'image':'maplayer.png',
-			    'type':'geojson',
-			    'subgiturl':'master/geodata/osm/south_sudan_osm_roi20km.geojson',
-			    'tags':'',
-			    'source':'OpenStreetmap'
-			  },
-			  {
-			    'name':'Airstrip - Line',
-			    'image':'maplayer.png',
-			    'type':'geojson',
-			    'subgiturl':'master/geodata/osm/ss_aeroway_line.geojson',
-			    'tags':'',
-			    'source':'OpenStreetmap'
-			  },
-			  {
-			    'name':'Airstrip - Point',
-			    'image':'maplayer.png',
-			    'type':'geojson',
-			    'subgiturl':'master/geodata/osm/ss_aeroway_point.geojson',
-			    'tags':'',
-			    'source':'OpenStreetmap'
-			  },
-			  {
-			    'name':'Airstrip - Polygon',
-			    'image':'maplayer.png',
-			    'type':'geojson',
-			    'subgiturl':'master/geodata/osm/ss_aeroway_polygon.geojson',
-			    'tags':'',
-			    'source':'OpenStreetmap'
-			  },
-			  {
-			    'name':'Amenity - Point',
-			    'image':'maplayer.png',
-			    'type':'geojson',
-			    'subgiturl':'master/geodata/osm/ss_amenity_point.geojson',
-			    'tags':'',
-			    'source':'OpenStreetmap'
-			  },
-			  {
-			    'name':'Amenity - Polygon',
-			    'image':'maplayer.png',
-			    'type':'geojson',
-			    'subgiturl':'master/geodata/osm/ss_amenity_polygon.geojson',
-			    'tags':'',
+			    'type':'GeoJSON Layer',
+			    'subgiturl':'master/geodata/osm/ss_waterway_line.geojson',
 			    'source':'OpenStreetmap'
 			  },
 			  {
 			    'name':'Barrier - Line',
 			    'image':'maplayer.png',
-			    'type':'geojson',
+			    'type':'GeoJSON Layer',
 			    'subgiturl':'master/geodata/osm/ss_barrier_line.geojson',
-			    'tags':'',
 			    'source':'OpenStreetmap'
 			  },
 			  {
-			    'name':'Barrier - Point',
-			    'image':'maplayer.png',
-			    'type':'geojson',
-			    'subgiturl':'master/geodata/osm/ss_barrier_point.geojson',
-			    'tags':'',
-			    'source':'OpenStreetmap'
+			    'name':'States and Major Cities',
+			    'image':'2-states-and-major-cities.jpg',
+			    'type':'Map Image',
+			    'subgiturl':'master/images/2-states-and-major-cities.png',
+			    'source':'Geosprocket'
 			  },
 			  {
-			    'name':'Barrier - Polygon',
+			    'name':'Travel Time to Cities',
 			    'image':'maplayer.png',
-			    'type':'geojson',
-			    'subgiturl':'master/geodata/osm/ss_barrier_polygon.geojson',
-			    'tags':'',
-			    'source':'OpenStreetmap'
+			    'type':'GeoJSON Layer',
+			    'subgiturl':'master/geodata/nelson/ssudan_travel_time_to_city.geojson',
+			    'source':'Nelson et al.'
 			  },
 			  {
-			    'name':'Political Boundaries',
+			    'name':'Protected Areas',
 			    'image':'maplayer.png',
-			    'type':'geojson',
-			    'subgiturl':'master/geodata/osm/ss_boundary_polygon.geojson',
-			    'tags':'',
-			    'source':'OpenStreetmap'
+			    'type':'GeoJSON Layer',
+			    'subgiturl':'master/geodata/wdpa/wdpa_ssudan.geojson',
+			    'source':'WDPA'
 			  },
 			  {
-			    'name':'Conservation Areas',
-			    'image':'maplayer.png',
-			    'type':'geojson',
-			    'subgiturl':'master/geodata/osm/ss_conservation_areas.geojson',
-			    'tags':'',
-			    'source':'OpenStreetmap'
+			    'name':'Forest Cover Loss - Yei',
+			    'image':'8a-forest-change-yei.jpg',
+			    'type':'Map Image',
+			    'subgiturl':'master/images/8a-forest-change-yei.png',
+			    'source':'Geosprocket'
 			  },
 			  {
-			    'name':'Historic Sites',
-			    'image':'maplayer.png',
-			    'type':'geojson',
-			    'subgiturl':'master/geodata/osm/ss_historic_point.geojson',
-			    'tags':'',
-			    'source':'OpenStreetmap'
+			    'name':'Rangeland Loss - Gogrial',
+			    'image':'15c-rangeland-gogrial.jpg',
+			    'type':'Map Image',
+			    'subgiturl':'master/images/15c-rangeland-gogrial.png',
+			    'source':'Geosprocket'
 			  },
 			  {
-			    'name':'Land Use',
+			    'name':'States',
 			    'image':'maplayer.png',
-			    'type':'geojson',
-			    'subgiturl':'master/geodata/osm/ss_landuse_polygon.geojson',
-			    'tags':'',
-			    'source':'OpenStreetmap'
+			    'type':'GeoJSON Layer',
+			    'subgiturl':'master/geodata/unitar/undp_states.geojson',
+			    'source':'UNITAR'
 			  },
 			  {
-			    'name':'Natural Features',
+			    'name':'Disputed Areas',
 			    'image':'maplayer.png',
-			    'type':'geojson',
-			    'subgiturl':'master/geodata/osm/ss_natural_polygon.geojson',
-			    'tags':'',
+			    'type':'GeoJSON Layer',
+			    'subgiturl':'master/geodata/natural_earth/ne_disputed_areas.geojson',
+			    'source':'Natural Earth'
+			  },
+			  {
+			    'name':'Infrastructure - Southern NP',
+			    'image':'10-infrastructure-southern.jpg',
+			    'type':'Map Image',
+			    'subgiturl':'master/images/10-infrastructure-southern.png',
+			    'source':'Geosprocket'
+			  },
+			  {
+			    'name':'National Region of Interest',
+			    'image':'maplayer.png',
+			    'type':'GeoJSON Layer',
+			    'subgiturl':'master/geodata/osm/south_sudan_osm_roi20km.geojson',
 			    'source':'OpenStreetmap'
 			  },
 			  {
 			    'name':'Places of Interest',
 			    'image':'maplayer.png',
-			    'type':'geojson',
+			    'type':'GeoJSON Layer',
 			    'subgiturl':'master/geodata/osm/ss_place_point.geojson',
-			    'tags':'',
+			    'source':'OpenStreetmap'
+			  },
+			  {
+			    'name':'Land Use',
+			    'image':'maplayer.png',
+			    'type':'GeoJSON Layer',
+			    'subgiturl':'master/geodata/osm/ss_landuse_polygon.geojson',
+			    'source':'OpenStreetmap'
+			  },
+			  {
+			    'name':'Rivers',
+			    'image':'maplayer.png',
+			    'type':'GeoJSON Layer',
+			    'subgiturl':'master/geodata/africover/africvr_sd_rivers.geojson',
+			    'source':'Africover'
+			  },
+			  {
+			    'name':'Elephant Range 2012',
+			    'image':'maplayer.png',
+			    'type':'GeoJSON Layer',
+			    'subgiturl':'master/geodata/iucn/iucn_elephant_range_2012.geojson',
+			    'source':'IUCN'
+			  },
+			  {
+			    'name':'Forest Cover Loss - Bor',
+			    'image':'8b-forest-change-bor.jpg',
+			    'type':'Map Image',
+			    'subgiturl':'master/images/8b-forest-change-bor.png',
+			    'source':'Geosprocket'
+			  },
+			  {
+			    'name':'Rangeland Loss 2003-2013',
+			    'image':'15-rangeland-loss.jpg',
+			    'type':'Map Image',
+			    'subgiturl':'master/images/15-rangeland-loss.png',
+			    'source':'Geosprocket'
+			  },
+			  {
+			    'name':'Forest Cover Loss - Bentiu',
+			    'image':'8d-forest-change-bentiu.jpg',
+			    'type':'Map Image',
+			    'subgiturl':'master/images/8d-forest-change-bentiu.png',
+			    'source':'Geosprocket'
+			  },
+			  {
+			    'name':'Historic Sites',
+			    'image':'maplayer.png',
+			    'type':'GeoJSON Layer',
+			    'subgiturl':'master/geodata/osm/ss_historic_point.geojson',
+			    'source':'OpenStreetmap'
+			  },
+			  {
+			    'name':'Cities',
+			    'image':'maplayer.png',
+			    'type':'GeoJSON Layer',
+			    'subgiturl':'master/geodata/africover/africvr_sd_towns_major.geojson',
+			    'source':'Africover'
+			  },
+			  {
+			    'name':'Elephant Habitat/Oil Activity',
+			    'image':'6-elephants-and-oil.jpg',
+			    'type':'Map Image',
+			    'subgiturl':'master/images/6-elephants-and-oil.png',
+			    'source':'Geosprocket'
+			  },
+			  {
+			    'name':'Travel Time to Cities',
+			    'image':'16-travel-time.jpg',
+			    'type':'Map Image',
+			    'subgiturl':'master/images/16-travel-time.png',
+			    'source':'Geosprocket'
+			  },
+			  {
+			    'name':'Roads',
+			    'image':'maplayer.png',
+			    'type':'GeoJSON Layer',
+			    'subgiturl':'master/geodata/osm/highway_line.geojson',
+			    'source':'OpenStreetmap'
+			  },
+			  {
+			    'name':'Barrier - Polygon',
+			    'image':'maplayer.png',
+			    'type':'GeoJSON Layer',
+			    'subgiturl':'master/geodata/osm/ss_barrier_polygon.geojson',
 			    'source':'OpenStreetmap'
 			  },
 			  {
 			    'name':'Railway',
 			    'image':'maplayer.png',
-			    'type':'geojson',
+			    'type':'GeoJSON Layer',
 			    'subgiturl':'master/geodata/osm/ss_railway_line.geojson',
-			    'tags':'',
 			    'source':'OpenStreetmap'
 			  },
 			  {
-			    'name':'Routes',
+			    'name':'Rangeland Loss - Eastern Region',
+			    'image':'15a-rangland-eastern.jpg',
+			    'type':'Map Image',
+			    'subgiturl':'master/images/15a-rangland-eastern.png',
+			    'source':'Geosprocket'
+			  },
+			  {
+			    'name':'Surface Water',
 			    'image':'maplayer.png',
-			    'type':'geojson',
-			    'subgiturl':'master/geodata/osm/ss_route_line.geojson',
-			    'tags':'',
+			    'type':'GeoJSON Layer',
+			    'subgiturl':'master/geodata/africover/africvr_surface_water.geojson',
+			    'source':'Africover'
+			  },
+			  {
+			    'name':'Wetlands',
+			    'image':'7-wetlands.jpg',
+			    'type':'Map Image',
+			    'subgiturl':'master/images/7-wetlands.png',
+			    'source':'Geosprocket'
+			  },
+			  {
+			    'name':'Natural Features',
+			    'image':'maplayer.png',
+			    'type':'GeoJSON Layer',
+			    'subgiturl':'master/geodata/osm/ss_natural_polygon.geojson',
 			    'source':'OpenStreetmap'
 			  },
 			  {
-			    'name':'Sport Facilities',
+			    'name':'Oil Concessions',
 			    'image':'maplayer.png',
-			    'type':'geojson',
-			    'subgiturl':'master/geodata/osm/ss_sport_point.geojson',
-			    'tags':'',
-			    'source':'OpenStreetmap'
+			    'type':'GeoJSON Layer',
+			    'subgiturl':'master/geodata/ecos/oil_concessions_2007.geojson',
+			    'source':'ECOS'
 			  },
 			  {
 			    'name':'Tourist Sites',
 			    'image':'maplayer.png',
-			    'type':'geojson',
+			    'type':'GeoJSON Layer',
 			    'subgiturl':'master/geodata/osm/ss_tourism_point.geojson',
-			    'tags':'',
 			    'source':'OpenStreetmap'
 			  },
 			  {
-			    'name':'Waterways',
+			    'name':'Elephant Range 2007',
 			    'image':'maplayer.png',
-			    'type':'geojson',
-			    'subgiturl':'master/geodata/osm/ss_waterway_line.geojson',
-			    'tags':'',
+			    'type':'GeoJSON Layer',
+			    'subgiturl':'master/geodata/iucn/iucn_elephant_range_2007.geojson',
+			    'source':'IUCN'
+			  },
+			  {
+			    'name':'Forest Cover Loss - Mushra',
+			    'image':'8c-forest-change-mushra.jpg',
+			    'type':'Map Image',
+			    'subgiturl':'master/images/8c-forest-change-mushra.png',
+			    'source':'Geosprocket'
+			  },
+			  {
+			    'name':'Routes',
+			    'image':'maplayer.png',
+			    'type':'GeoJSON Layer',
+			    'subgiturl':'master/geodata/osm/ss_route_line.geojson',
 			    'source':'OpenStreetmap'
+			  },
+			  {
+			    'name':'Settlements',
+			    'image':'maplayer.png',
+			    'type':'GeoJSON Layer',
+			    'subgiturl':'master/geodata/unitar/unitar_settlements.geojson',
+			    'source':'UNITAR'
+			  },
+			  {
+			    'name':'Infrastructure - Sudd NP',
+			    'image':'13-infrastructure-sudd.jpg',
+			    'type':'Map Image',
+			    'subgiturl':'master/images/13-infrastructure-sudd.png',
+			    'source':'Geosprocket'
+			  },
+			  {
+			    'name':'Oil Concessions',
+			    'image':'3-oil-concessions.jpg',
+			    'type':'Map Image',
+			    'subgiturl':'master/images/3-oil-concessions.png',
+			    'source':'Geosprocket'
+			  },
+			  {
+			    'name':'Permanent Wetlands',
+			    'image':'maplayer.png',
+			    'type':'TopoJSON Layer',
+			    'subgiturl':'master/geodata/nasa/ssudan_modis_wetlands_2012.topojson',
+			    'source':'NASA'
+			  },
+			  {
+			    'name':'Regional View Map',
+			    'image':'1-regional-view.jpg',
+			    'type':'Map Image',
+			    'subgiturl':'master/images/1-regional-view.png',
+			    'source':'Geosprocket'
+			  },
+			  {
+			    'name':'Sport Facilities',
+			    'image':'maplayer.png',
+			    'type':'GeoJSON Layer',
+			    'subgiturl':'master/geodata/osm/ss_sport_point.geojson',
+			    'source':'OpenStreetmap'
+			  },
+			  {
+			    'name':'National Border',
+			    'image':'maplayer.png',
+			    'type':'GeoJSON Layer',
+			    'subgiturl':'master/geodata/natural_earth/south_sudan_ne.geojson',
+			    'source':'Natural Earth'
+			  },
+			  {
+			    'name':'Political Boundaries',
+			    'image':'maplayer.png',
+			    'type':'GeoJSON Layer',
+			    'subgiturl':'master/geodata/osm/ss_boundary_polygon.geojson',
+			    'source':'OpenStreetmap'
+			  },
+			  {
+			    'name':'Geologic Provinces',
+			    'image':'maplayer.png',
+			    'type':'GeoJSON Layer',
+			    'subgiturl':'master/geodata/usgs/ssudan_geologic_provinces.geojson',
+			    'source':'USGS'
+			  },
+			  {
+			    'name':'Amenity - Point',
+			    'image':'maplayer.png',
+			    'type':'GeoJSON Layer',
+			    'subgiturl':'master/geodata/osm/ss_amenity_point.geojson',
+			    'source':'OpenStreetmap'
+			  },
+			  {
+			    'name':'Counties',
+			    'image':'maplayer.png',
+			    'type':'GeoJSON Layer',
+			    'subgiturl':'master/geodata/unitar/undp_ss_county.geojson',
+			    'source':'UNITAR'
+			  },
+			  {
+			    'name':'Full Text Map Annex',
+			    'image':'document.png',
+			    'type':'PDF',
+			    'subgiturl':'master/docs/annex-a-031814b.pdf',
+			    'source':'Geosprocket'
+			  },
+			  {
+			    'name':'Airstrip - Line',
+			    'image':'maplayer.png',
+			    'type':'GeoJSON Layer',
+			    'subgiturl':'master/geodata/osm/ss_aeroway_line.geojson',
+			    'source':'OpenStreetmap'
+			  },
+			  {
+			    'name':'Roads',
+			    'image':'maplayer.png',
+			    'type':'GeoJSON Layer',
+			    'subgiturl':'master/geodata/unitar/undp_roads.geojson',
+			    'source':'UNITAR'
+			  },
+			  {
+			    'name':'Forest Cover Loss 2000-2012',
+			    'image':'8-forest-change.jpg',
+			    'type':'Map Image',
+			    'subgiturl':'master/images/8-forest-change.png',
+			    'source':'Geosprocket'
+			  },
+			  {
+			    'name':'Conservation Areas',
+			    'image':'maplayer.png',
+			    'type':'GeoJSON Layer',
+			    'subgiturl':'master/geodata/osm/ss_conservation_areas.geojson',
+			    'source':'OpenStreetmap'
+			  },
+			  {
+			    'name':'Infrastructure - Boma NP',
+			    'image':'11-infrastructure-boma.jpg',
+			    'type':'Map Image',
+			    'subgiturl':'master/images/11-infrastructure-boma.png',
+			    'source':'Geosprocket'
+			  },
+			  {
+			    'name':'Natural Landscape',
+			    'image':'9-forests-wetlands-protected.jpg',
+			    'type':'Map Image',
+			    'subgiturl':'master/images/9-forests-wetlands-protected.png',
+			    'source':'Geosprocket'
+			  },
+			  {
+			    'name':'Airstrip - Point',
+			    'image':'maplayer.png',
+			    'type':'GeoJSON Layer',
+			    'subgiturl':'master/geodata/osm/ss_aeroway_point.geojson',
+			    'source':'OpenStreetmap'
+			  },
+			  {
+			    'name':'Rangeland Loss - Bor',
+			    'image':'15b-rangeland-bor.jpg',
+			    'type':'Map Image',
+			    'subgiturl':'master/images/15b-rangeland-bor.png',
+			    'source':'Geosprocket'
+			  },
+			  {
+			    'name':'Rangeland Loss - Bentiu',
+			    'image':'15d-rangeland-bentiu.jpg',
+			    'type':'Map Image',
+			    'subgiturl':'master/images/15d-rangeland-bentiu.png',
+			    'source':'Geosprocket'
+			  },
+			  {
+			    'name':'Towns',
+			    'image':'maplayer.png',
+			    'type':'GeoJSON Layer',
+			    'subgiturl':'master/geodata/africover/africvr_sd_towns_other.geojson',
+			    'source':'Africover'
+			  },
+			  {
+			    'name':'Airstrip - Polygon',
+			    'image':'maplayer.png',
+			    'type':'GeoJSON Layer',
+			    'subgiturl':'master/geodata/osm/ss_aeroway_polygon.geojson',
+			    'source':'OpenStreetmap'
+			  },
+			  {
+			    'name':'Amenity - Polygon',
+			    'image':'maplayer.png',
+			    'type':'GeoJSON Layer',
+			    'subgiturl':'master/geodata/osm/ss_amenity_polygon.geojson',
+			    'source':'OpenStreetmap'
+			  },
+			  {
+			    'name':'Oil Pipelines',
+			    'image':'maplayer.png',
+			    'type':'GeoJSON Layer',
+			    'subgiturl':'master/geodata/ecos/oil_pipelines_2007.geojson',
+			    'source':'ECOS'
+			  },
+			  {
+			    'name':'Barrier - Point',
+			    'image':'maplayer.png',
+			    'type':'GeoJSON Layer',
+			    'subgiturl':'master/geodata/osm/ss_barrier_point.geojson',
+			    'source':'OpenStreetmap'
+			  },
+			  {
+			    'name':'Elephant Habitat',
+			    'image':'5-elephant-habitat.jpg',
+			    'type':'Map Image',
+			    'subgiturl':'master/images/5-elephant-habitat.png',
+			    'source':'Geosprocket'
+			  },
+			  {
+			    'name':'National Border',
+			    'image':'maplayer.png',
+			    'type':'GeoJSON Layer',
+			    'subgiturl':'master/geodata/osm/south_sudan_osm.geojson',
+			    'source':'OpenStreetmap'
+			  },
+			  {
+			    'name':'Wetlands and Human Impacts',
+			    'image':'14-infrastructure-oil-wetlands.jpg',
+			    'type':'Map Image',
+			    'subgiturl':'master/images/14-infrastructure-oil-wetlands.png',
+			    'source':'Geosprocket'
+			  },
+			  {
+			    'name':'Boma-Jonglei Landscape',
+			    'image':'4-boma-jonglei-landscape.jpg',
+			    'type':'Map Image',
+			    'subgiturl':'master/images/4-boma-jonglei-landscape.png',
+			    'source':'Geosprocket'
+			  },
+			  {
+			    'name':'Forest Cover Loss 2000-2012',
+			    'image':'maplayer.png',
+			    'type':'GeoJSON Layer',
+			    'subgiturl':'master/geodata/hansen/ssudan_forest_loss_2000-2012.geojson',
+			    'source':'Hansen et al.'
+			  },
+			  {
+			    'name':'Polling Stations',
+			    'image':'maplayer.png',
+			    'type':'GeoJSON Layer',
+			    'subgiturl':'master/geodata/unitar/unitar_pollingstations.geojson',
+			    'source':'UNITAR'
+			  },
+			  {
+			    'name':'Rangeland Loss 2003-2013',
+			    'image':'maplayer.png',
+			    'type':'GeoJSON Layer',
+			    'subgiturl':'master/geodata/geosprocket/ssudan_rangeland_loss_2003-2013.geojson\n',
+			    'source':'Geosprocket'
+			  },
+			  {
+			    'name':'Surficial Geology',
+			    'image':'maplayer.png',
+			    'type':'GeoJSON Layer',
+			    'subgiturl':'master/geodata/usgs/ssudan_surficial_geology.geojson',
+			    'source':'USGS'
+			  },
+			  {
+			    'name':'Infrastructure - Badingilo NP',
+			    'image':'12-infrastructure-badingilo.jpg',
+			    'type':'Map Image',
+			    'subgiturl':'master/images/12-infrastructure-badingilo.png',
+			    'source':'Geosprocket'
+			  },
+			  {
+			    'name':'Populated Places',
+			    'image':'maplayer.png',
+			    'type':'GeoJSON Layer',
+			    'subgiturl':'master/geodata/natural_earth/ne_populated_places.geojson',
+			    'source':'Natural Earth'
+			  },
+			  {
+			    'name':'Airfields',
+			    'image':'maplayer.png',
+			    'type':'GeoJSON Layer',
+			    'subgiturl':'master/geodata/unitar/undp_airfields.geojson',
+			    'source':'UNITAR'
 			  }
 			]">
       </div>
