@@ -66,7 +66,7 @@
 	<div class="container">
 		<div class="row mt">
 			<div class="col-lg-12">
-				<h1>Documentation</h1>
+				<h1>About the Project</h1>
 			</div><!-- col-lg-12 -->
 		</div><!-- row -->
 		
@@ -91,7 +91,7 @@
 			</div>		
 		</div><!-- row -->
 	</div><!-- container -->
-
+<hr>
 	<!-- WELCOME SECTION -->
     <div class="container">
     	<div ng-init="dataz = [
@@ -495,7 +495,27 @@
     	<div class="container">
 	    	<div class="row mt" id="searchTextResults">
 				<ul class="grid effect-2" id="grid">
-					<li ng-repeat="record in dataz | filter:searchText"><h2>{{record.name}} - {{record.source}}</h2><a href="https://github.com/GeoSprocket/ssudan-eco/blob/{{record.subgiturl}}"><img src="images/{{record.image}}"></a></li>
+					<li ng-repeat="record in dataz | filter:searchText">
+						<h2>
+							<a href="https://github.com/GeoSprocket/ssudan-eco/blob/{{record.subgiturl}}">{{record.name}}</a>
+						</h2>
+						<a href="https://github.com/GeoSprocket/ssudan-eco/blob/{{record.subgiturl}}">
+							<img src="images/{{record.image}}">
+						</a>
+						<em>Source: {{record.source}}</em>
+						<h4>
+							<span class="pull-right label label-default">
+								<a class="cards" href="https://raw.githubusercontent.com/GeoSprocket/ssudan-eco/{{record.subgiturl}}" download>
+									<i class=" cards fa fa-download"></i>
+								</a>
+							</span>
+							<span class="pull-right label label-primary">
+								<a class="cards" href="https://github.com/GeoSprocket/ssudan-eco/blob/{{record.subgiturl}}">
+									{{record.type}}
+								</a>
+							</span>
+						</h4>
+					</li>
 				</ul>
 	    	</div>
 	    </div>
@@ -552,12 +572,12 @@
 	<script src="assets/js/imagesloaded.js"></script>
     <script src="assets/js/classie.js"></script>
 	<script src="assets/js/AnimOnScroll.js"></script>
-	<script>
+	<!--<script>
 		new AnimOnScroll( document.getElementById( 'grid' ), {
 			minDuration : 0.4,
 			maxDuration : 0.7,
 			viewportFactor : 0.2
 		} );
-	</script>
+	</script>-->
   </body>
 </html>

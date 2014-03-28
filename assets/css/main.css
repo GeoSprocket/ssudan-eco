@@ -35,6 +35,9 @@ a {
     -o-transition: color .1s ease-in, background .1s ease-in;
     transition: color .1s ease-in, background .1s ease-in;
 }
+.cards {
+    color:#fff;
+}
 a:hover, a:focus {
     color: #7b7b7b;
     text-decoration: none;
@@ -508,14 +511,18 @@ hr {
 .grid {
     max-width: 69em;
     list-style: none;
-    margin: 30px auto;
-    padding: 0;
+    margin: 20px auto;
+    padding: 0px;
 }
 .grid li {
     display: block;
     float: left;
-    padding: 7px;
-    width: 33%;
+    margin: 10px;
+    padding: 15px;
+    width: 30%;
+    min-height: 250px;
+    background-color: #e2e3e3;
+    overflow: auto;
 }
 .grid li.shown, .no-js .grid li, .no-cssanimations .grid li {
     opacity: 1;
