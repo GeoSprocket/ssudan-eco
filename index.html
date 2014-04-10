@@ -618,9 +618,9 @@
 				<ul class="grid effect-2" id="grid">
 					<li ng-repeat="record in dataz | filter:searchText">
 						<h2>
-							<a href="https://github.com/GeoSprocket/ssudan-eco/blob/{{record.subgiturl}}">{{record.name}}</a>
+							<a href="https://github.com/GeoSprocket/ssudan-eco/blob/{{record.subgiturl}}" target="_blank">{{record.name}}</a>
 						</h2>
-						<a href="https://github.com/GeoSprocket/ssudan-eco/blob/{{record.subgiturl}}">
+						<a href="https://github.com/GeoSprocket/ssudan-eco/blob/{{record.subgiturl}}" target="_blank">
 							<img src="images/{{record.image}}">
 						</a>
 						<em>Source: {{record.source}}</em>
@@ -631,7 +631,7 @@
 								</a>
 							</span>
 							<span class="pull-right label label-primary">
-								<a class="cards" href="https://github.com/GeoSprocket/ssudan-eco/blob/{{record.subgiturl}}">
+								<a class="cards" href="https://github.com/GeoSprocket/ssudan-eco/blob/{{record.subgiturl}}" target="_blank">
 									{{record.type}}
 								</a>
 							</span>
@@ -688,17 +688,8 @@
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/main.js"></script>
-    <script src="assets/js/protractor.js"></script>
-	<script src="assets/js/masonry.pkgd.min.js"></script>
-	<script src="assets/js/imagesloaded.js"></script>
+		<script src="assets/js/masonry.pkgd.min.js"></script>
+		<script src="assets/js/imagesloaded.js"></script>
     <script src="assets/js/classie.js"></script>
-	<script src="assets/js/AnimOnScroll.js"></script>
-	<!--<script>
-		new AnimOnScroll( document.getElementById( 'grid' ), {
-			minDuration : 0.4,
-			maxDuration : 0.7,
-			viewportFactor : 0.2
-		} );
-	</script>-->
   </body>
 </html>
