@@ -54,7 +54,7 @@
 			<div class="row">
 				<div class="col-lg-8 col-lg-offset-2">
 					<h1>south sudan</h1>
-					<h3 style="color:#fff" >tropical forests and biological diversity assessment database</h3>
+					<h3 style="color:#fff" >open data on tropical forests, biological diversity and human impacts</h3>
 					<div class="spacer"></div>
 					<i class="fa fa-angle-down"></i>
 				</div>
@@ -302,7 +302,7 @@
 			    'name':'Oil Concessions',
 			    'image':'maplayer.png',
 			    'type':'GeoJSON Layer',
-			    'subgiturl':'master/geodata/ecos/oil_concessions_2007.geojson',
+			    'subgiturl':'master/geodata/ecos/ecos_oil_concessions_2007.geojson',
 			    'source':'ECOS'
 			  },
 			  {
@@ -505,7 +505,7 @@
 			    'name':'Oil Pipelines',
 			    'image':'maplayer.png',
 			    'type':'GeoJSON Layer',
-			    'subgiturl':'master/geodata/ecos/oil_pipelines_2007.geojson',
+			    'subgiturl':'master/geodata/ecos/ecos_oil_pipelines_2007.geojson',
 			    'source':'ECOS'
 			  },
 			  {
@@ -618,9 +618,9 @@
 				<ul class="grid effect-2" id="grid">
 					<li ng-repeat="record in dataz | filter:searchText">
 						<h2>
-							<a href="https://github.com/GeoSprocket/ssudan-eco/blob/{{record.subgiturl}}">{{record.name}}</a>
+							<a href="https://github.com/GeoSprocket/ssudan-eco/blob/{{record.subgiturl}}" target="_blank">{{record.name}}</a>
 						</h2>
-						<a href="https://github.com/GeoSprocket/ssudan-eco/blob/{{record.subgiturl}}">
+						<a href="https://github.com/GeoSprocket/ssudan-eco/blob/{{record.subgiturl}}" target="_blank">
 							<img src="images/{{record.image}}">
 						</a>
 						<em>Source: {{record.source}}</em>
@@ -631,7 +631,7 @@
 								</a>
 							</span>
 							<span class="pull-right label label-primary">
-								<a class="cards" href="https://github.com/GeoSprocket/ssudan-eco/blob/{{record.subgiturl}}">
+								<a class="cards" href="https://github.com/GeoSprocket/ssudan-eco/blob/{{record.subgiturl}}" target="_blank">
 									{{record.type}}
 								</a>
 							</span>
@@ -688,17 +688,8 @@
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/main.js"></script>
-    <script src="assets/js/protractor.js"></script>
-	<script src="assets/js/masonry.pkgd.min.js"></script>
-	<script src="assets/js/imagesloaded.js"></script>
+		<script src="assets/js/masonry.pkgd.min.js"></script>
+		<script src="assets/js/imagesloaded.js"></script>
     <script src="assets/js/classie.js"></script>
-	<script src="assets/js/AnimOnScroll.js"></script>
-	<!--<script>
-		new AnimOnScroll( document.getElementById( 'grid' ), {
-			minDuration : 0.4,
-			maxDuration : 0.7,
-			viewportFactor : 0.2
-		} );
-	</script>-->
   </body>
 </html>
