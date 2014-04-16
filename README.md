@@ -2,6 +2,8 @@
 
 Repository for datasets and tools related to biodiversity assessment in South Sudan
 
+A user-facing exploration site [is available here](http://geosprocket.github.io/ssudan-eco/)
+
 ## Components
 
 * [Hosted resources](geodata/) are compiled by provider organization and are available for download
